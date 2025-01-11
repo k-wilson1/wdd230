@@ -1,9 +1,4 @@
-.nunito-<uniquifier> {
-    font-family: "Nunito", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+
 body{
     margin: 0 auto;
     padding: 50px;

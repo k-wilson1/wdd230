@@ -1,0 +1,51 @@
+.nunito-<uniquifier> {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+body{
+    max-width:auto;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Nunito;
+}
+header{
+    display: grid;
+    background: lightseagreen;
+    grid-template-columns: 1fr 2fr;
+    padding: 3rem;
+    text-align: left;
+    font-size: 30px;
+}
+nav{
+    background: rgba(3, 117, 121, 0.322);
+    display: grid;
+    padding: 2rem;
+}
+main h2{
+    border-bottom:2px black solid;
+    width: 50%;
+    display: inline-block;
+}
+main h3, .card{
+    border-color: black;
+    border: 2px solid black;
+    width: 95%;
+    justify-self: center;
+    
+}
+.card h3{
+    background: rgb(252, 206, 213);
+    width: 95%;
+}
+.card ul{
+    text-align: left;
+    padding-left: 3rem;
+    display: grid;
+}
+footer{
+    background: rgb(252, 206, 213);
+}

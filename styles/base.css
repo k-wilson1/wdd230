@@ -2,9 +2,10 @@
 body{
     margin: 0 auto;
     padding: 50px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     font-family: Nunito;
+    background: lightseagreen;
 }
 header{
     display: grid;
@@ -13,6 +14,7 @@ header{
     padding: 3rem;
     text-align: left;
     font-size: 30px;
+    border: solid black 2px;
 }
 nav{
     background: rgba(3, 117, 121, 0.322);
@@ -20,11 +22,13 @@ nav{
     padding: 2rem;
 }
 main h2{
+    background-color:lightseagreen;
     border-bottom:2px black solid;
     width: 50%;
     display: inline-block;
 }
 main h3, .card{
+    background: lightseagreen;
     border-color: black;
     border: 2px solid black;
     width: 95%;

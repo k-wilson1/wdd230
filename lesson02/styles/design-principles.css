@@ -5,6 +5,7 @@ body{
     text-align: center;
     display: block;
     grid-template-columns: 1fr;
+    font-family: "Oswald", serif;
 }
 header{
     background: lightpink;

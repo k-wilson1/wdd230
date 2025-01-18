@@ -33,7 +33,7 @@ main{
 main h2{
     background-color:lightseagreen;
     border-bottom:2px black solid;
-    width: 50%;
+    width: 75%;
     display: inline-block;
     border-radius: 15px;
     grid-column: 1/3;

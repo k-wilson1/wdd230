@@ -20,6 +20,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 2rem;
+    color: white;
 }
 header, nav{
     border: solid black 1px;

@@ -7,9 +7,9 @@ body{
     font-family: Nunito;
 }
 header{
-    display: grid;
+    display: flex;
     background: lightseagreen;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     padding: 3rem;
     text-align: left;
     font-size: 30px;
@@ -63,6 +63,10 @@ img{
     border-radius: 15px;
     justify-self: center;
 }
+header h1{
+    grid-row: 2/3;
+}
+
 footer{
     background: rgb(252, 206, 213);
 }

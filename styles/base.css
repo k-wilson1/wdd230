@@ -46,7 +46,7 @@ main{
 }
 main h2{
     background-color:lightseagreen;
-    border:2px black solid;
+    border:5px rgb(252, 206, 213) solid;
     width: 75%;
     display: inline-block;
     border-radius: 10px;
@@ -74,7 +74,7 @@ main h3, .card{
 }
 
 footer{
-    background: rgb(252, 206, 213);
+    background: rgb(239, 192, 199);
     min-height: 100px;
     padding: 20px 0;
 }

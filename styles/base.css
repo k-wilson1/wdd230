@@ -4,7 +4,7 @@
 }
 body{
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-family: Nunito;
     display: grid;
@@ -15,14 +15,14 @@ header{
     display: grid;
     padding: 25px;
     background: lightseagreen;
-    font-size: 20px;
+    font-size: 18px;
     max-width: 760px;
     margin: 0 auto;
 }
 #image-of-me{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     height: 100%;
 }
 header img{

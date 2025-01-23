@@ -28,11 +28,15 @@
         background: rgba(87, 86, 86, 0.5);
     }
     
-    #menu{
-        display: none;
+    #menu {
+        display: none; /* Hide the menu button on larger screens */
     }
     .navigation{
+        display: flex;
         flex-direction: row;
+    }
+    .navigation.hide {
+        display: flex;
     }
     .navigation a{
         display: block;

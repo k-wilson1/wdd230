@@ -12,9 +12,14 @@
         grid-column: span 4;
         padding: 20px;
     }
+    #image-of-me{
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
     img{
         width: 100%;
-        height: auto;
+        height: 50%;
         object-fit: cover;
     }
     nav{

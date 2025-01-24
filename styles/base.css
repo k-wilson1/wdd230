@@ -118,6 +118,7 @@ main h3, .card{
     text-align: left;
     padding-left: 3rem;
     display: grid;
+    font-size: 1.5rem;
     
 }
 .iframe{

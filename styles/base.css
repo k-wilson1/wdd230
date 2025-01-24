@@ -63,7 +63,7 @@ nav {
 
 .navigation {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     list-style: none;
     background-color: #333;
     color: #fff;

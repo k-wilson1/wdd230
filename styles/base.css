@@ -62,18 +62,13 @@ nav {
 }
 
 .navigation {
-    display: flex;
+    display: none;
     flex-direction: column;
-    justify-content: space-around;
     list-style: none;
     background-color: #333;
     color: #fff;
-}
-.navigation li{
-    border-bottom: 1px solid #444;
-}
-.navigation li:last-child{
-    border-bottom: none;
+    padding: 0;
+    margin: 0;
 }
 .navigation a {
     display: block;

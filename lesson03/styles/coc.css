@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
+main{
+    font: 22px;
+    text-align: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(214, 37, 37);
+}
+header img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-right: 10px;
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(214, 37, 37);
+    color: black;
+    font-family: 'alfa slab one', cursive;  
+    margin: 0;
+}
+.color-scheme{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    background-color: black;
+}
+.color-scheme li:nth-child(1){
+    color: rgb(214, 37, 37);   
+}
+.color-scheme li:nth-child(2){
+    color: white;  
+    background-color: black; 
+}
+.color-scheme li:nth-child(3){
+    color: black;  
+    background-color: rgb(214, 37, 37); 
+}
+.color-scheme li:nth-child(4){
+    color: rgb(255, 255, 142);  
+    background-color: black; 
+}
+.typography li:nth-child(1){
+    font-family: 'alfa slab one', cursive;
+    font-size: 2em;
+}
+.typography li:nth-child(2){
+    font-family: 'smooth sans';
+    font-size: 3em;
+}
+.typography li:nth-child(3){
+    font-family: 'Nunito';
+    font-size: 3em;
+}
+.typography h2{
+    font-family: 'Smooth sans';
+}
+.typography p{
+    font-family: 'Nunito';
+}
+.site-purpose h1{
+    font-family: 'smooth sans';
+    font-size: 2em;
+}
+.site-purpose p{
+    font-family: 'nunito';
+    font-size: 1.5em;
+    text-align: left;
+}
+.scenarios h1{
+    font-family: 'smooth sans';
+    font-size: 2em;
+    text-align: center;
+}
+.scenarios p{
+    font-family: 'nunito';
+    font-size: 1.5em;
+    text-align: left;
+}   

@@ -1,6 +1,7 @@
 /*Beginning of my own css*/
 *{
     box-sizing: border-box;
+    background-color: lightseagreen;
 }
 body{
     margin: 0;

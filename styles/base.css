@@ -25,9 +25,6 @@ header{
     text-align: center;
     aspect-ratio: 1/1;
 }
-header img{
-    border-radius: 5px;
-}
 h1{
     grid-row: 2/3;
     padding: 20px;

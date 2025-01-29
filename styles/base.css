@@ -23,16 +23,15 @@ header{
     display: block;
     margin: 0 auto;
     text-align: center;
-    height: 100%;
+    aspect-ratio: 1/1;
 }
 header img{
-    max-width: 100%;
-    height: auto;
     border-radius: 5px;
 }
 h1{
     grid-row: 2/3;
     padding: 20px;
+    font-size: 2rem;
 }
 nav {
     background: rgb(177, 177, 177);

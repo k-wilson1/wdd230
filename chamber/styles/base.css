@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Smooch+Sans:wght@100..900&display=swap');
 header{
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@ header{
     background-color: red;
     color: black;
     text-align: center;
-    font: alfa slab one;
+    font-family: "alfa slab one";
 }
 header img{
     width: 100px;
@@ -31,7 +31,7 @@ nav{
 nav ul{
     list-style: none;
     padding: 0;
-    margin:0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,9 @@ nav ul li a{
     display: block;
     text-decoration: none;
     padding: 10px 15px;
+}
+nav ul li a:hover{
+    background-color: gold;
 }
 .imageofrichfield img{
     width: 100%;
@@ -53,7 +56,7 @@ nav ul li a{
     grid-template-columns: repeat(auto-fill);
     padding: 20px;
     border: solid 5px black;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.459);
 }
 .postings h2, .business h2, .highlight h2{
     text-align: center;
@@ -66,4 +69,11 @@ nav ul li a{
     font-family: "Nunito";
     text-align: center;
     margin: 0;
+}
+footer{
+    background-color: red;
+    color: black;
+    padding: 10px 0;
+    min-height: 100px;
+    text-align: center;
 }

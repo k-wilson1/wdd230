@@ -61,7 +61,7 @@ nav ul li a:hover{
 .postings h2, .business h2, .highlight h2{
     text-align: center;
     font-size: 2rem;
-    font-family: "smooth sans";
+    font-family: "smooch sans";
     border-bottom: solid 2px red;
 }
 .postings p, .business p, .highlight p{
@@ -76,4 +76,6 @@ footer{
     padding: 10px 0;
     min-height: 100px;
     text-align: center;
+    font-size: 2rem;
+    margin: 0;
 }

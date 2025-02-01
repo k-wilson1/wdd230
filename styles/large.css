@@ -6,7 +6,7 @@
         grid-template-rows: auto 1fr auto;
         font-size: 22px;
         background-color: lightseagreen;
-        gap: 20px;
+        gap: 5px;
     }
     header{
         grid-column: span 4;

@@ -14,8 +14,27 @@
         font-size: 4rem;
     }
     nav{
-        height: 50px;
-        font-size: 3rem;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        height: 10px;
+    }
+    nav ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li a{
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    nav ul li a:hover{
+        background-color: gold;
     }
     .imageofrichfield img{
         width: 100%;

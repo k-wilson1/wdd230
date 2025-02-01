@@ -78,7 +78,6 @@ nav {
 }
 .postings, .business, .highlight{
     display: grid;
-    grid-template-columns: repeat(auto-fill);
     padding: 20px;
     border: solid 5px black;
     background-color: rgba(245, 222, 179, 0.459);

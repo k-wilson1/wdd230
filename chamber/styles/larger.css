@@ -20,6 +20,9 @@
         display: flex !important;
         flex-direction: row;
     }
+    .navigation a{
+        padding: 10px 15px;
+    }
     nav{
         background-color: black;
         color: white;

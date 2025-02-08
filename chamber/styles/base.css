@@ -107,6 +107,7 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     border-radius: 20px;
+    color: black;
 }
 #join:hover {
     background-color: rgb(126, 126, 80); /* Adjust the background color as needed */

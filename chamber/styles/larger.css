@@ -10,7 +10,7 @@
         grid-template-rows: auto auto auto auto auto;
     }
     header{
-        grid-template-rows: 1/2;
+        grid-row: 1/2;
         display: grid;
         grid-template-columns: 1fr 1.5fr;
         background-color: red;
@@ -36,7 +36,8 @@
         display: flex !important;
         flex-direction: row;
         margin: 0;
-        position: absolute;
+        position: relative;
+        object-fit: cover;
     }
     .ul.navigation.hide{
         display: none;
@@ -53,6 +54,7 @@
         color: black;
         text-align: center;
         justify-content: center;
+        position: relative;
     }
     .navigation a:hover{
         background-color: rgb(190, 170, 51);

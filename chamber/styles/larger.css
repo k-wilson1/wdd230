@@ -104,7 +104,7 @@
     .postings h2, .business h2, .highlight h2{
         padding: 20px;
         font-family: 'Smooch Sans', sans-serif;
-        height: 100px;
+        height: auto;
         margin: 0;
         font-size: 3rem;
         grid-row: 1/2;

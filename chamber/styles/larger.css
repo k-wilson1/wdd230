@@ -99,6 +99,7 @@
         gap: 10px;
         justify-items: center;
         align-items: start;
+        padding: 10px;
     }
     .postings h2, .business h2, .highlight h2{
         padding: 20px;

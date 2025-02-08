@@ -25,6 +25,7 @@
     .navigation{
         display: flex !important;
         flex-direction: row;
+        margin: 0;
     }
     nav{
         grid-column: 3/4;

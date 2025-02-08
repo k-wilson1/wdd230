@@ -45,7 +45,6 @@ nav {
     content: "☰";
 }   
 #menu.open::before{
-    content: "X";
     color: black;
     font-style: bold;
 }

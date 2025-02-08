@@ -95,16 +95,14 @@
     .postings, .business, .highlight{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        gap: 10px;
+        grid-template-rows: 0.5fr 0.5fr 1fr;
         justify-items: center;
         align-items: start;
-        padding: 10px;
+        padding: 0;
     }
     .postings h2, .business h2, .highlight h2{
-        padding: 20px;
+        padding: 10px;
         font-family: 'Smooch Sans', sans-serif;
-        height: auto;
         margin: 0;
         font-size: 3rem;
         grid-row: 1/2;

@@ -5,7 +5,7 @@
         grid-template-columns: 1fr 1.5fr 1 fr;
         background-color: red;
         color:black;
-        padding: 0;
+        padding: 10px;
     }
     header img{
         width: 200px;
@@ -15,9 +15,9 @@
     header h1{
         grid-column: 2/3;
         text-align: left;
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 0;
-        padding: 0;
+        padding: 10px;
     }
     #menu{
         display: none;

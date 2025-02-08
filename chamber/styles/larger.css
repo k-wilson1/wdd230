@@ -63,28 +63,33 @@
     }
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 2fr;
         gap: 0 5px;
         background-color: wheat;
     }
     .imageofrichfield{
-        grid-column: 1/4;
+        grid-column: 1/5;
         grid-row: 1/2;
     }
-    .postings {
+    .weather {
         display: grid;
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    .business{
+    .postings {
         display: grid;
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    .highlight{
+    .business{
         display: grid;
         grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .highlight{
+        display: grid;
+        grid-column: 4/5;
         grid-row: 2/3;
     }
     .postings, .business, .highlight{

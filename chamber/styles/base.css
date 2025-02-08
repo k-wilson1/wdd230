@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Smooch+Sans:wght@100..900&display=swap');
+
 header{
     display: flex;
     align-items: center;
@@ -131,6 +132,20 @@ nav {
 }
 .weather{
     height: 50%;
+}
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+    border-color: #eee; 
 }
 footer{
     background-color: red;

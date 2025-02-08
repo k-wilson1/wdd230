@@ -20,20 +20,27 @@
     <header>
         <img id="richfield-tiger" src="images/power.png" alt="Tiger Power">
         <h1>Richfield Chamber of Commerce</h1>
+        <nav>
+            <button type="button" id="menu">Menu</button>
+            <ul class="navigation hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html">Members</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <button type="button" id="menu">Menu</button>
-        <ul class="navigation hide">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="members.html">Members</a></li>
-            <li><a href="join.html">Join Now</a></li>
-        </ul>
-    </nav>
+    
     <main>
         <section class="imageofrichfield">
             <img id="richfield" src="images/richfield.jpg" alt="Richfield">
+            <button type="button" id="join">Join Us</button>
+        </section>
+        <section class="weather">
+            <h2>Richfield Weather</h2>
+            <div id="temp-div">30°F</div>
+            <div id="weather-info">Partly cloudy</div>
+            <div id="hourly-forecast"></div>
         </section>
         <section class="postings">
             <h2>Community Postings</h2>
@@ -69,5 +76,6 @@
     </footer>
     <script src="scripts/getdate.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

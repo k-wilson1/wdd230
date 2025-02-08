@@ -5,7 +5,7 @@ header{
     justify-content: center;
     grid-template-columns: 1fr 3fr;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 0.75rem;
     background-color: red;
     color: black;
     text-align: center;
@@ -20,44 +20,54 @@ header img{
 header h1{
     grid-column: 2/3;
     margin: 0;
-    align-self: center;
+    align-self: left;;
+    font-size: 1.3rem;
 }
 nav {
-    background-color: black;
-    color: white;
+    color: black;
     padding: 10px;
     position: relative;
     height: 20px;
 }
 #menu{
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 0;
     background: none;
-    color: white;
+    color: black;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 100%;
+    right: 50px;
     cursor: pointer;
+    z-index: 10;
 }
 #menu::before{
     content: "☰";
 }   
 #menu.open::before{
-    content: "❌";
+    content: "X";
+    color: black;
+    font-style: bold;
 }
 .navigation{
     display: none;
     flex-direction: column;
     list-style: none;
-    padding: 0;
+    padding: 20px;
     margin: 0;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 50px;
+    width: 100%;
 }
 .navigation a{
-    display: block;
+    display: flex;
+    position: relative;
     padding: 1.5rem;
     text-decoration: none;
     color: white;
     background: black;
+    width: 100%;
 }
 .navigation a:hover{
     background-color: rgb(9, 10, 10);
@@ -70,20 +80,44 @@ nav {
     display: flex;
 }
 
-.imageofrichfield img{
+.imageofrichfield {
+    position: relative;
+}
+.imageofrichfield img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+}   
+#join {
+    position: absolute; /* Position the button absolutely */
+    top: 60%; /* Adjust the top position as needed */
+    left: 20%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%); /* Center the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(240, 240, 155); /* Adjust the background color as needed */
+    border: solid red 3px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 20px;
 }
-.postings, .business, .highlight{
+#join:hover {
+    background-color: rgb(126, 126, 80); /* Adjust the background color as needed */
+    color: black;
+}
+.weather, .postings, .business, .highlight{
     display: grid;
     padding: 20px;
     border: solid 5px black;
     background-color: rgba(245, 222, 179, 0.459);
     font-size: 2rem;
 }
-.postings h2, .business h2, .highlight h2{
+.weather, .postings h2, .business h2, .highlight h2{
     text-align: center;
     font-size: 3rem;
     font-family: "smooch sans";
@@ -94,6 +128,9 @@ nav {
     font-family: "Nunito";
     text-align: center;
     margin: 0;
+}
+.weather{
+    height: 50%;
 }
 footer{
     background-color: red;

@@ -1,16 +1,23 @@
 @media screen and (min-width: 37.5em)
 {
-    
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr 10px;
+        background-color: red;
+        color:black;
+        padding: 10px;
+        position: relative;
+    }
     header img{
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        margin-right: 10px;
     }
     header h1{
         grid-column: 2/3;
-        margin: 0;
-        align-self: center;
+        margin-left: 0;
+        text-align: left;
         font-size: 4rem;
     }
     #menu{
@@ -20,14 +27,15 @@
         display: flex !important;
         flex-direction: row;
     }
-    .navigation a{
-        padding: 10px 15px;
-    }
     nav{
+        grid-column: 1/3;
         background-color: black;
         color: white;
         height: auto;
-        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
     }
     nav ul{
         list-style: none;

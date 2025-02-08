@@ -1,44 +1,45 @@
 @media screen and (min-width: 37.5em)
 {
-    body{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto 1fr auto;
-        font-size: 22px;
-        background-color: lightseagreen;
-        gap: 5px;
-    }
     header{
-        grid-column: span 4;
         padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr .25fr;
+        align-items: center;
+        justify-content: center;
     }
     #image-of-me{
-        margin: 0 auto;
-    }
-    img{
-        aspect-ratio: 1/1;
-        object-fit: cover;
-    }
-    nav{
-        grid-column: span 4;
-        padding: 10px;
-        background: rgba(87, 86, 86, 0.5);
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
     
+    header h1{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
     #menu {
         display: none;
     }
-
     .navigation{
-        display: flex;
         flex-direction: row;
+        display: flex !important;
+        position: absolute;
     }
-    .navigation.hide {
-        display: flex;
+    #nav{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        position: absolute;
+        text-align: center;
+        margin: 0;
     }
-    .navigation a{
-        display: block;
-        flex: 1 1 100%;
+    nav ul li a{
+        color: white;
+        padding: 10px;
+        grid-row: 2/3;
+    }
+    .navigation a:hover{
+        background-color: pink;
     }
     main{
         display: grid;

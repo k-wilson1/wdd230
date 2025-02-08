@@ -97,7 +97,7 @@
         grid-template-rows: 0.5fr 0.5fr 1fr;
         justify-items: center;
         align-items: start;
-        padding: 0;
+        padding: 10px;
     }
     .postings h2, .business h2, .highlight h2{
         padding: 10px;

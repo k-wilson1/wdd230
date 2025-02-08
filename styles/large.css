@@ -19,18 +19,21 @@
         grid-column: 2/3;
         grid-row: 1/2;
         text-align: center;
+        font-size: 2rem;
+        margin: 0;
+        padding: 10px;
     }
     #menu {
         display: none;
     }
     .navigation{
-        display: flex;
+        display: flex !important;
         flex-direction: row;
-        justify-content: center;
-        background-color: #333;
-        grid-column: 1/-1;
+        position: absolute;
         grid-row: 2;
-        width: 100%
+        width: 100%;
+        background-color: lightseagreen; 
+        border: solid 1px black;   
     }
     .navigation a{
         color: white;

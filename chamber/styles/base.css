@@ -37,7 +37,7 @@ nav {
     color: black;
     position: absolute;
     top: 100%;
-    right: 50px;
+    right: 100%;
     cursor: pointer;
     z-index: 10;
     width: 100%;
@@ -59,7 +59,6 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    
     color: white;
 }
 .navigation a{

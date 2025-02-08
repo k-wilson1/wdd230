@@ -9,7 +9,7 @@ body{
     font-family: "Nunito";
 }
 header{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     padding: 10px;

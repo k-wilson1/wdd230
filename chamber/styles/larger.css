@@ -7,7 +7,7 @@
         background-color: white;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: 1 fr auto 1fr 1fr 1fr ;
     }
     header{
         grid-row: 1/2;
@@ -38,6 +38,7 @@
         margin: 0;
         position: relative;
         object-fit: cover;
+        width: 100%;
     }
     .ul.navigation.hide{
         display: none;
@@ -46,14 +47,17 @@
         width: 100%;
     }
     nav{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        padding: 10px;
+        display: block;
+        grid-row: 2/3;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        border: 0;
+        margin: 0;
         background-color: red;
         color: black;
         text-align: center;
-        justify-content: center;
         position: relative;
     }
     .navigation a:hover{
@@ -65,10 +69,12 @@
         object-fit: cover;
         display: block;
         margin:  0px auto;
+        grid-row: 3/4;
     }
     main{
+        grid-row: 3/4;
         display: grid;
-        grid-template-columns: 0.5fr 1fr 1fr 1fr;
+        grid-template-columns: auto 1fr 1fr 1fr;
         grid-template-rows: 1fr 2fr;
         gap: 0 5px;
         background-color: wheat;

@@ -48,7 +48,6 @@
     }
     nav{
         display: block;
-        grid-row: 2/3;
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
@@ -137,6 +136,8 @@
         padding: 5px 0;
         margin: 0;
     }
- 
+ footer{
+    grid-row: 5/6;
+ }
     
 }

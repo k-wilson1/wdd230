@@ -1,6 +1,6 @@
 @media screen and (min-width: 37.5em) {
     header {
-        display: grid;
+        display: block;
         grid-template-columns: 1fr 3fr 1fr; 
         grid-template-rows: auto auto auto; 
         width: 100%;
@@ -40,6 +40,7 @@
 
     .navigation a {
         color: white;
+        display: block;
         padding: 10px;
         font-size: 1.5rem;
     }
@@ -61,8 +62,9 @@
     }
 
     h2 {
+        display: block;
         grid-column: 1/3; 
-        grid-row: 1/2;
+        grid-row: 2/3;
         text-align: center;
         background-color: lightseagreen;
         padding: 10px;

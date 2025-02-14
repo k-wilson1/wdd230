@@ -36,12 +36,20 @@
     </header>
     <!--This is a comment-->
     <main>
-        <div class="hero">
+        
+        <!-- Week 6 hero replacement <div class="hero">
         <picture>
             <source srcset="images/twinfallssmall.webp" media="(max-width:400px)">
             <source srcset="images/twinfallstemple.webp" media="(max-width 960px)">
             <img src="images/twinfallstemple.webp" alt="Twin Falls, Idaho" width="2" height="1">
-        </div>
+        </div>-->
+        <div class="hero">
+            <picture>
+              <source srcset="images/hero-small.webp" media="(max-width: 500px)" width="500" height="250">
+              <source srcset="images/hero-medium.webp" media="(max-width: 1000px)" width="1000" height="500">
+              <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
+            </picture>
+          </div>
             <h2>WDD 230:Web Frontend Development</h2>
         <section class="card" id="activities">
             <h3>Learning Activities</h3>
@@ -60,8 +68,8 @@
         <section class="card" id="info">
             <h3>Information</h3>
             <p>Toloria, Madagascar</p>
-            <p>76°F - 🌞 Sunshine</p>
-            <p>Number of pages visited: 19</p>
+            <p>53°F - 🌥️ Mostly cloudy</p>
+            <p id="windchill"></p>
         </section>
     
     </main>
@@ -73,6 +81,7 @@
         <p>Last Modified: <span id="lastModified"></span> </p>
     </footer>
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/hamburger.js"></script>  
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>  
 </body>
 </html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive images</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/twinfallssmall.webp" media="(max-width: 500px)" width="500" height="250">
+                <source srcset="images/twinfallstemplemedium.webp" media="(max-width: 1000px)"width="1000" height="500">
+                <img src="images/twinfallstemple.webp" alt="Twin Falls Temple" width="1500" height="750">
+              </picture>
+        </div>
+    </main>
+</body>
+</html>

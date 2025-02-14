@@ -21,11 +21,12 @@ header{
 }
 #image-of-me{
     display: block;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
     width: 100%;
     height: auto;
     border-radius: 10px;
+    padding: 0;
 }
 h1{
     margin: 0;

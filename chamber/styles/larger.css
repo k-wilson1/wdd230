@@ -12,10 +12,11 @@
     header{
         grid-row: 1/2;
         display: grid;
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1fr;
         background-color: red;
         color:black;
-        padding: 10px;
+        padding: 0;
+        margin: 0;
     }
     header img{
         width: 200px;
@@ -25,9 +26,10 @@
     header h1{
         grid-column: 2/3;
         text-align: left;
+        justify-content: right;
         font-size: 2rem;
         margin: 0;
-        padding: 10px;
+        padding-right: 30px;
     }
     #menu{
         display: none;
@@ -35,29 +37,20 @@
     .navigation{
         display: flex !important;
         flex-direction: row;
-        margin: 0;
+        height: auto;
         position: relative;
         object-fit: cover;
         width: 100%;
+        padding-bottom: 10px;
     }
     .ul.navigation.hide{
         display: none;
         height: auto;
         grid-row: 2/3;
-        width: 100%;
     }
-    nav{
-        display: block;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
-        border: 0;
-        margin: 0;
-        background-color: red;
+    nav li{
         color: black;
-        text-align: center;
-        position: relative;
+        font-size: 1.5rem;
     }
     .navigation a:hover{
         background-color: rgb(190, 170, 51);

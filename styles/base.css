@@ -105,7 +105,7 @@ main h2{
 .hero p {
     margin: 0 auto;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
     color: whitesmoke;

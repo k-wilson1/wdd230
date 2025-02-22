@@ -80,6 +80,8 @@ nav {
 }
 .navigation.show{
     display: flex;
+    background-color: black;
+    height: auto;
 }
 
 .imageofrichfield {
@@ -171,6 +173,7 @@ footer{
     padding: 20px;
     background-color: lightyellow;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    bottom: 70%;
 }
 .calendar-header {
     display: flex;

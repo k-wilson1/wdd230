@@ -1,16 +1,18 @@
 @media screen and (min-width: 37.5em){
     body{
         display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 250px 1fr 1fr 1fr 1fr;
+        background-color: wheat;
+        margin: 0;
     }
     header{
         grid-column: 1/4;
-        grid-row: 1/2;
         margin: 0 auto;
         word-wrap: break-word;
         padding-top: 50px;
         width: 100%;
+        height: 200px;
     }
     header img{
         width: 200px;
@@ -45,51 +47,41 @@
     .navigation a:hover{
         background-color: rgb(190, 170, 51);
     }
-    .imageofrichfield img{
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-        display: block;
-        margin:  0px auto;
-        grid-row: 3/4;
-    }
-    main{
-        grid-row: 4/5;
-        display: grid;
-        grid-template-columns: auto 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2fr;
-        gap: 0 5px;
-        background-color: wheat;
-        margin-top: 20px;
-    }
     .imageofrichfield{
         grid-column: 1/5;
         grid-row: 1/2;
     }
-    .weather {
+
+    main{
+        grid-column: 1/4;
+        grid-row: 2/5;
+        background-color: wheat;
+        margin: 0;
         display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .weather {
         grid-column: 1/2;
         grid-row: 2/3;
+        display: block;
     }
     .postings {
-        display: grid;
+        display: flex;
         grid-column: 2/3;
         grid-row: 2/3;
     }
     .business{
-        display: grid;
+        display: flex;
         grid-column: 3/4;
         grid-row: 2/3;
     }
     .highlight{
-        display: grid;
         grid-column: 4/5;
         grid-row: 2/3;
     }
     .postings, .business, .highlight{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.5fr 1fr;
         justify-items: center;
         align-items: start;
         padding: 10px;
@@ -99,20 +91,17 @@
         font-family: 'Smooch Sans', sans-serif;
         margin: 0;
         font-size: 3rem;
-        grid-row: 1/2;
     }
     .postings p, .business p, .highlight p{
         font-family: 'Nunito', sans-serif;
         text-align: center;
         margin: 0;
         padding: 0;
-        grid-row: 2/3;
     }
     .postings ul, .business ul, .highlight ul{
         font-size: 2rem;
         font-family: 'Nunito';
         text-align: left;
-        grid-row: 3/4;
         margin: 0;
         padding: 10px;
     }
@@ -120,8 +109,53 @@
         padding: 5px 0;
         margin: 0;
     }
- footer{
-    grid-row: 5/6;
- }
-    
+    footer{
+        grid-column: 1/5;
+        grid-row: 5/6;
+        height: 50px;
+    }
+    #calendar {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    .population {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .main-attraction {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .imagesofrichfield {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        background-color: wheat;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .visits {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        font-size: 2rem;
+        border: solid black 2px;
+        padding: 20px;
+        height: 100px;
+    }
+    #sunrise{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #caves{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
 }

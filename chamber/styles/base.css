@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Smooch+Sans:wght@100..900&display=swap');
 
 header{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
     padding: 10px;
     font-size: 0.75rem;
     background-color: red;
@@ -27,8 +28,10 @@ header h1{
 nav {
     color: black;
     padding: 10px;
-    position: relative;
     height: 20px;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    width: 100%;
 }
 #menu{
     font-size: 1rem;
@@ -154,4 +157,54 @@ footer{
     min-height: 100px;
     text-align: center;
     margin: 0;
+}
+#calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    background-color: lightyellow;
+}
+
+.calendar {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: lightyellow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.calendar-days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+}
+.calendar-days div {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calendar-days div:hover {
+    background-color: #f0f0f0;
+}
+.calendar-days div.active {
+    background-color: yellow;
+    color: red;
+}
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+#days div {
+    text-align: center;
+}
+#days div:hover {
+    background-color: red;
 }

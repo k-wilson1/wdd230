@@ -1,0 +1,161 @@
+/*Beginning of my own css*/
+*{
+    box-sizing: border-box;
+    background-color: lightseagreen;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Nunito";
+}
+header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
+    text-align: center;
+    background: lightseagreen;
+    max-width: 760px;
+    text-align: center;
+}
+#image-of-me{
+    display: block;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+nav {
+    position: relative; 
+    height: 20px;
+}
+
+#menu {
+    font-size: 1.75rem;
+    border: none;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+.navigation {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    list-style: none;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 50%;
+}
+.navigation a {
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation a:hover {
+    background-color: pink;
+}
+.navigation.hide {
+    display: none;
+}
+.navigation.show{
+    display: flex;
+    background-color: #333;
+}
+
+main h2{
+    background-color:lightseagreen;
+    border: solid 5px rgb(252, 206, 213);
+    border-radius: 10px;
+    grid-row: 1/2;
+    justify-self: center;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    display: inline-block;
+}
+.hero h1 {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgba(68, 117, 221);
+    padding: 5px;
+    border-radius: 10px;
+    border: solid rgba(27, 27, 122, 0.664) 8px;
+}
+main h3, .card{
+    border: 2px solid black;
+    width: 95%;
+    justify-self: center;
+    text-align: left;
+    border-radius: 10px;
+    grid-template-columns: auto auto;
+}
+.card h3{
+    background: rgb(252, 206, 213);
+}
+.card ul{
+    text-align: left;
+    padding-left: 3rem;
+    display: grid;
+    font-size: 1.5rem;
+    
+}
+.card li a{
+    color: black;
+}
+.card p{
+    padding: 0;
+    margin: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#info h3{
+    text-align: center;
+}
+.iframe{
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+.iframe iframe{
+    top: 0;
+    left: 0;
+}
+
+footer{
+    background-color: rgb(239, 192, 199);
+    min-height: 100px;
+    padding: 20px 0;
+}

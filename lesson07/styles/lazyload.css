@@ -1,0 +1,25 @@
+main {
+    height: 100vh;
+    margin: 0;
+}
+header h1{
+    width: 100%;
+    font-size: 16em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: black;
+    animation: fade 20s;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

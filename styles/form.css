@@ -81,8 +81,3 @@ input[name="email"]:required:valid {
 .form input:required {
     border-bottom: solid 6px red;
 }
-.form input:[type="placeholder"] {
-    font-size: bigger;
-    font-style: italic;
-    background-color: white;
-}

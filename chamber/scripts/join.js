@@ -9,3 +9,4 @@ button.addEventListener('click', () => {
 });
 
 document.body.appendChild(button);
+

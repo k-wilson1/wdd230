@@ -229,3 +229,46 @@ footer{
 #days div:hover {
     background-color: red;
 }
+.mf1 {
+    display: block;
+}
+.mf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 0.5rem 2%;
+}
+.mf1 legend {
+    color: rgb(107, 107, 250);
+    padding: 0 .5rem;
+}
+.mf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: 0.9rem;
+}
+.mf1 div {
+    padding-top: 1rem;
+    color: rgb(107, 107, 250);
+    font-size: 0.9rem;
+}
+.mf1 input[type="text"],
+.mf1 input[type="email"],
+.mf1 input[type="tel"],
+.mf1 input[type="phone"] {
+    display: block;
+    width: 96%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    color: gray;
+    max-width: 400px;
+    appearance: none;
+}
+.mf1 input[type="radio"] {
+    margin-right: 6px;
+    display: block;
+    padding-bottom: 1rem;
+}

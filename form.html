@@ -34,11 +34,13 @@
     </header>
     <main>
         <h1>Membership Form</h1>
-        <form method="get" action="record.html" class="form">
+            <form method="get" action="record.html" class="form">
             <fieldset>
+                <legend>Membership Information</legend>
                 <label>Username* <input type="text" id="username" name="username" required></label>
-                <label for="password">Password* <input type="password" id="password" name="password" pattern="[a-zA-Z -]{8,}" required></label>
+                <label for="password">Password* <input type="password" id="password" name="password" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*?&]{8,}" required></label>
                 <label for="password2">Re-enter your Password* <input type="password" id="password2" name="password2"></label>
+                <div id="message"></div>
                 <label for="email">Email* <input type="email" id="email" name="email" placeholder="Your byui email address" pattern="[a-zA-A0-9.\-]+@byui.edu" title="A valid byui.edu email address." required></label>
                 <label for="r">Page Rating 1-10</label>
                 <div id="rangevalue">1</div>
@@ -56,8 +58,8 @@
                     <option value="10"></option>
                 </datalist>
             </fieldset>
-            <input type="submit" value= "Send my Membership">
-        </form>
+            <input type="submit" value="Send my Membership">
+            </form>
     </main>
     <footer>
         <p>&copy; <span id="currentdate"></span> Katrina Wilson  Texas, USA</p>

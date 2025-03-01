@@ -152,4 +152,52 @@
         grid-column: 1/2;
         background-color: wheat;
     }
+
+    .mf1 main{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mf1 fieldset {
+        margin: 2rem 0;
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        padding: 0.5rem 2%;
+        width: 96%;
+    }
+    .mf1 legend {
+        color: rgb(107, 107, 250);
+        padding: 0 .5rem;
+        font-size: 20px;
+    }
+    .mf1 label {
+        display: block;
+        padding-top: 1rem;
+        color: red;
+        font-size: 0.9rem;
+    }
+    .mf1 input[type="text"],
+    .mf1 input[type="email"],
+    .mf1 input[type="tel"],
+    .mf1 input[type="phone"] {
+        display: block;
+        width: 96%;
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        padding: 0.75rem;
+        color: gray;
+    }
+    .mf1 input[type="radio"] {
+        margin-right: 6px;
+    }
+    #membershipapp {
+        display= grid;
+        grid-column: 1/2;
+    }
+    #descofmember {
+        display: grid;
+        grid-column: 2/3;
+    }
 }

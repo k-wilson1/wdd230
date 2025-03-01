@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Richfield Chamber of Commerce, Idaho, USA">
+    <meta name="author" content="Katrina Wilson">
+    <title>Chamber of Commerce-Richfield Idaho</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Richfield Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.app.goo.gl/J8u3fJjgBmWPtXxm7">
+    <meta property="og:url" content="https://k-wilson1.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <div id="mode">
+        💡/🕶️
+    </div>
+    <header>
+        <img id="richfield-tiger" src="images/power.png" alt="Tiger Power">
+        <h1>Richfield Chamber of Commerce</h1>
+        <nav>
+            <button type="button" id="menu">Menu</button>
+            <ul class="navigation hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html">Members</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form method="get" action="thankyou.html" class="mf1">
+            <div id="membershipapp">
+            <fieldset>
+                <legend>Membership Application</legend>
+                <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label>Title/Position* <input type="text" name="title" id="title" required pattern="[a-zA-Z- ]{7,}"></label>
+                <label>Email* <input type="email" name="email" id="email" required placeholder="someone@gmail.com"></label>
+                <label>Phone* <input type="phone" name="phone" id="phone" required></label>
+                <label>Business/Organization's Name <input type="text" name="business" id="business" required></label>
+                <label>Business/Organization's Description <input type="text" name="desc" id="desc"></label>
+                <div id="membership">
+                    <legend>Membership Level*</legend>
+                    <label>Non-profit<input type="radio" name="membership" id="np" value="np" required></label>
+                    <label>Bronze<input type="radio" name="membership" id="bronze" value="bronze" required></label>
+                    <label>Silver<input type="radio" name="membership" id="silver" value="silver" required></label>
+                    <label>Gold<input type="radio" name="membership" id="gold" value="gold" required></label>
+                </div>
+            </div>
+            <div id="descofmember">
+                <h2>Membership Descriptions</h2>
+                <div class="membership-level" id="np-desc">
+                    <h3>Non-profit</h3>
+                    <ul>
+                        <li>Free</li>
+                        <li>Listing in the Chamber's online directory</li>
+                        <li>Access to Chamber events</li>
+                        <li>Monthly Newsletter</li>
+                        <li>Standard support</li>
+                    </ul>
+                </div>
+                <div class="membership-level id="bronze-desc">
+                    <h3>Bronze</h3>
+                    <ul>
+                        <li>$100/year</li>
+                        <li>Everything in Basic</li>
+                        <li>Access to Member-only events</li>
+                        <li>Monthly Newsletter</li>
+                        <li>Priority support</li>
+                    </ul>
+                </div>
+                <div class="membership id="silver-desc">
+                    <h3>Silver</h3>
+                    <ul>
+                        <li>$200/year</li>
+                        <li>Everything in Bronze</li>
+                        <li>Free event tickets</li>
+                        <li>Spotlight position on homepage</li>
+                        <li>Discounts on all events</li>
+                    </ul>
+                </div>
+                <div class="membership id="gold-desc">
+                    <h3>Gold</h3>
+                    <ul>
+                        <li>$300/year</li>
+                        <li>Everything in Silver</li>
+                        <li>Personalized training</li>
+                        <li>VIP event access</li>
+                        <li>Exclusive promotional offers</li>
+                        <li>Free advertising</li>
+                    </ul>
+            </div>
+                
+                <input type="hidden" id="date" name="date">
+                <input type="submit" value="Apply for My Membership">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentdate"></span> Richfield Chamber of Commerce  Idaho, USA</p>
+        <p>Contant info: **Add this later**</p>
+    </footer>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/member.js"></script>
+</body>
+</html>

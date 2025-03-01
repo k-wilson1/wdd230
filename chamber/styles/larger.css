@@ -153,6 +153,10 @@
         background-color: wheat;
     }
 
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .mf1 fieldset {
         margin: 2rem 0;
         border: 1px solid lightgrey;

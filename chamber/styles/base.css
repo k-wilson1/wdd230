@@ -272,3 +272,6 @@ footer{
     display: block;
     padding-bottom: 1rem;
 }
+form{
+    margin: 0 auto;
+}

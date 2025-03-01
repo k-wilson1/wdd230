@@ -186,7 +186,7 @@
         margin-right: 6px;
     }
     #membershipapp {
-        display= grid;
+        display: grid;
         grid-column: 1/2;
     }
     #descofmember {

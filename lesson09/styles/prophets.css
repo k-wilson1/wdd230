@@ -2,6 +2,7 @@
 body {
     font-size: 16px;
     font-family: "Nunito", sans-serif;
+    background-color: darkblue;
 }
 header, main, footer {
     margin: 1rem;
@@ -28,7 +29,8 @@ h1 {
  .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
- }
+    gap: 1rem;
+}
  section {
     margin: 0.25rem;
     padding: 0.5rem;

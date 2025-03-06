@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Smooch+Sans:wght@100..900&display=swap');
+body {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+}
+header, main, footer {
+    margin: 1rem;
+    position: relative;
+}
+h1 {
+    color: white;
+    border-bottom: 1px solid black;
+    text-shadow: 0 0 15px #777;
+    width: 60%;
+}
+ h2 {
+    color: darkgreen;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid #bbb;
+ }
+ p {
+    color: #333;
+    margin: 0;
+ }
+ main {
+    margin-left: 2rem;
+ }
+ .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ }
+ section {
+    margin: 0.25rem;
+    padding: 0.5rem;
+    background-color: rgb(200, 238, 253);
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ section > p {
+    min-height: 60px;
+ }
+ img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333;
+ }
+ li > img {
+    width: auto;
+    height: 30px;
+ }
+ footer {
+    border-top: 1px solid #555;
+    padding: 20px;
+ }

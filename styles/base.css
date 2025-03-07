@@ -115,7 +115,7 @@ main h2{
     border-radius: 10px;
     border: solid rgba(27, 27, 122, 0.664) 8px;
 }
-main h3, .card{
+main h3, #cards, .card{
     border: 2px solid black;
     width: 95%;
     justify-self: center;
@@ -126,17 +126,17 @@ main h3, .card{
 .card h3{
     background: rgb(252, 206, 213);
 }
-.card ul{
+#cards ul{
     text-align: left;
     padding-left: 3rem;
     display: grid;
     font-size: 1.5rem;
     
 }
-.card li a{
+#cards li a{
     color: black;
 }
-.card p{
+#card p{
     padding: 0;
     margin: 10px;
     font-size: 1.5rem;

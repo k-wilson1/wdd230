@@ -10,23 +10,26 @@ async function getLinks() {
         displayLinks(data.lessons); 
     }
 }
-const displayLinks = (links) => {
-    links.forEach((link) => {
-        let linkUrl = document.createElement('a');
-        let title = document.createElement('li');
-        let lesson = document.createElement('ul');
-       
-        lesson.textContent = `${link.lesson}`;
-        title.textContent = `${link.title}`;
-        linkUrl.textContent = `${link.link}`;
+const displayLinks = (lessons) => {
+    lessons.forEach((lesson) => {
+        lesson.links.forEach((link) => {    
+            let linkUrl = document.createElement('a');
+            let title = document.createElement('li');
+            let lessonText = document.createElement('ul');
+
+            lessonText.textContent = `Lesson ${lesson.lesson}`;
+            title.textContent = `${link.title}`;
+            linkUrl.textContent = link.url;
+            linkUrl.setAttribute('href', `${link.link}`);
+            linkUrl.setAttribute('target', '_blank');
 
 
-        cards.appendChild(lesson);
-        cards.appendChild(title);    
-        cards.appendChild(linkUrl);
+            cards.appendChild(lessonText);
+            cards.appendChild(title);    
+            cards.appendChild(linkUrl);
 
 
-    }
-        );
+    });
+});
 };
 getLinks();

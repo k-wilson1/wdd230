@@ -123,8 +123,9 @@ main h3, #cards, .card{
     border-radius: 10px;
     grid-template-columns: auto auto;
 }
-.card h3{
+div h3, h3{
     background: rgb(252, 206, 213);
+    text-align: center;
 }
 #cards ul{
     text-align: left;

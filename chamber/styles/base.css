@@ -178,21 +178,15 @@ footer{
     text-align: center;
     margin: 0;
 }
-#calendar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-    background-color: lightyellow;
-}
 
 .calendar {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     background-color: lightyellow;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     bottom: 70%;
+    width: 100%;
 }
 .calendar-header {
     display: flex;

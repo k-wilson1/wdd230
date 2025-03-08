@@ -129,30 +129,37 @@
         margin: 0;
     }
     footer{
-        grid-column: 1/5;
-        grid-row: 5/6;
         height: 50px;
     }
-    .discover main {
+    main .discover  {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto;
         gap: 20px;
         
     }
-    .imagesofrichfield {
-        width: 100%;
-        height: auto;
-        background-color: wheat;
-        margin: 0 auto;
-        padding: 10px;
-        grid-column: 2/3;
-    }
     .side-bar {
+        width: 70%;
         grid-column: 1/2;
         background-color: wheat;
+        text-align: center;
+        padding: 20px;
+        border: 2px solid black;
     }
-
+    #side-bar {
+        width: 80%;
+        text-align: left;
+    }
+    #calendar{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .imagesofrichfield {
+        width: 300px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
     form {
         display: grid;
         grid-template-columns: 1fr 1fr;

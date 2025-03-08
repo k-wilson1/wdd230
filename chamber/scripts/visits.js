@@ -12,7 +12,7 @@ if (!lastVisit) {
 }
 else {
     const lastVisitDate = new Date(lastVisit);
-    const timeDifference = currentDate - lastVisitDate;
+    const timeDifference = today - lastVisitDate;
 
     const daysSinceLastVisit = Math.floor(timeDifference/msToDays);
 
@@ -23,5 +23,5 @@ else {
         const dayText = daysSinceLastVisit === 1 ? 'day' : 'days';
         sidebarContent.innerHTML = `You last visited ${daysSinceLastVisit} ${dayText} ago`;
     }
-    localStorage.setItem('lastVisit', currentDate.toISOString());
+    localStorage.setItem('lastVisit', theDateToday.toISOString());
 };

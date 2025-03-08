@@ -46,7 +46,7 @@
     }
     .navigation a:hover{
         background-color: rgb(190, 170, 51);
-        height: auto;
+        height: 50px;
     }
     .imageofrichfield{
         grid-column: 1/5;

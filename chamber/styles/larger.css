@@ -139,7 +139,6 @@
         
     }
     .side-bar {
-        width: 70%;
         grid-column: 1/2;
         background-color: wheat;
         text-align: center;

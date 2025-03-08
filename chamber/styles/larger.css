@@ -132,14 +132,16 @@
         height: 50px;
     }
     main .discover  {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: auto;
         gap: 20px;
         
     }
+    .visits {
+        padding-bottom: 10px;
+        border: black 2px dashed;
+        justify-content: center;
+        padding-top: 5px;
+    }
     .side-bar {
-        grid-column: 1/2;
         background-color: wheat;
         text-align: center;
         padding: 20px;
@@ -158,6 +160,12 @@
         height: auto;
         padding: 0;
         margin: 0;
+    }
+    .imagesofrichfield h2 {
+        text-align: center;
+        font-size: 2rem;
+        justify-content: center;
+        align-self: center;
     }
     form {
         display: grid;

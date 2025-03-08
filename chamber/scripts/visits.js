@@ -9,6 +9,7 @@ const sidebarContent = document.getElementById('visits');
 
 if (!lastVisit) {
     sidebarContent.innerHTML = "Welcome! Let us know if you have any questions.";
+    localStorage.setItem('lastVisit', theDateToday.toISOString());
 }
 else {
     const lastVisitDate = new Date(lastVisit);

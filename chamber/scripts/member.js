@@ -21,14 +21,14 @@ const displayMembers = (members) => {
         let other = document.createElement('p');
 
         name.textContent = member.name;
-        img.setAttribute('src, member.image');
-        img.setAttribute('alt', member.name);
+        img.setAttribute('src', 'member.image');
+        img.setAttribute('alt', 'member.name');
         img.setAttribute('loading', 'lazy');
         img.setAttribute('width', '100');
         img.setAttribute('height', '200');
         phone.textContent = member.phone;
-        address.textContent = member.phone;
-        website.href = member.website;
+        address.textContent = member.address;
+        website.textContent = member.website;
         level.textContent = member.level;
         other.textContent = member.other;
 

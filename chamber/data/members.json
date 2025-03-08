@@ -6,7 +6,7 @@
             "phone": "2087312176",
             "website": "lilwoodsaloon.com",
             "image": "https://lh3.googleusercontent.com/p/AF1QipO_WnKycyqsjzVshd8i3nBZ_c3VVU0qf-QNJaet=s220-w165-h220-n-k-no",
-            "membership level": "Gold",
+            "level": "Gold",
             "other": ""
         },
         {
@@ -15,7 +15,7 @@
             "phone": "2085397072",
             "website": "shoshonebirdmuseum.com",
             "image": "https://s3-media0.fl.yelpcdn.com/bphoto/h9vkI0B8Lnfj74P3wEj8ow/o.jpg",
-            "membership level": "Bronze",
+            "level": "Bronze",
             "other": ""
         },
         {
@@ -24,7 +24,7 @@
             "phone": "2086161812",
             "website": "93expresscafe.com",
             "image": "https://s3-media0.fl.yelpcdn.com/bphoto/d0QsnSD5UoPAbWFo53effA/348s.jpg",
-            "membership level": "Bronze",
+            "level": "Bronze",
             "other": ""
         },
         {
@@ -42,7 +42,7 @@
             "phone": "2087368886",
             "website": "subway.com",
             "image": "https://s3-media0.fl.yelpcdn.com/bphoto/F8IsA26C7MJIWNG11jL2sg/348s.jpg",
-            "membership level": "Silver",
+            "level": "Silver",
             "other": ""
         },
         {
@@ -51,7 +51,7 @@
             "phone": "2084872530",
             "website": "fridays-market.com",
             "image": "https://fridaysmarket.api.shophero.com/shop/content/1/images/logo.png?full=1",
-            "membership level": "Bronze",
+            "level": "Bronze",
             "other": ""
         },
         {
@@ -60,7 +60,7 @@
             "phone": "2084872545",
             "website": "glanbianutritionals.com",
             "image": "https://lh5.googleusercontent.com/p/AF1QipNWzGddYEZl_BU5BPwoe6evFpIr70pEJfoeRt12=w171-h171-n-k-no",
-            "membership level": "Silver",
+            "level": "Silver",
             "other": ""
         }
     ]

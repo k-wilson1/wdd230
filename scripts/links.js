@@ -22,7 +22,7 @@ const displayLinks = (lessons) => {
     // Group lessons by week
     lessons.forEach((lesson) => {
         if (!weekContainer[lesson.week]) {
-            weekContainer[lesson.week] = [];  // array for the week 
+            weekContainer[lesson.week] = [];  // array for the week if not already present
         }
         weekContainer[lesson.week].push(lesson);  // Add lesson to the correct week
     });

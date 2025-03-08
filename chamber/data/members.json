@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "The Little Wood Saloon",
+            "address": "110 N Main St Richfield, ID 83349",
+            "phone": "2087312176",
+            "website": "lilwoodsaloon.com",
+            "image": "https://lh3.googleusercontent.com/p/AF1QipO_WnKycyqsjzVshd8i3nBZ_c3VVU0qf-QNJaet=s220-w165-h220-n-k-no",
+            "membership level": "Gold",
+            "other": ""
+        },
+        {
+            "name": "Shoshone Bird Museum",
+            "address": "100 Mammoth Cave Civil Defense Rd Shoshone, ID 83352",
+            "phone": "2085397072",
+            "website": "shoshonebirdmuseum.com",
+            "image": "https://s3-media0.fl.yelpcdn.com/bphoto/h9vkI0B8Lnfj74P3wEj8ow/o.jpg",
+            "membership level": "Bronze",
+            "other": ""
+        },
+        {
+            "name": "93 Express Cafe",
+            "address": "20511 N Main St Carey, ID 83320",
+            "phone": "2086161812",
+            "website": "93expresscafe.com",
+            "image": "https://s3-media0.fl.yelpcdn.com/bphoto/d0QsnSD5UoPAbWFo53effA/348s.jpg",
+            "membership level": "Bronze",
+            "other": ""
+        },
+        {
+            "name": "Shoshone Ice Caves",
+            "address": "1561 N Hwy 75 Shoshone, ID 83352",
+            "phone": "2088862058",
+            "website": "shoshoneicecaves.com",
+            "image": "https://s3-media0.fl.yelpcdn.com/bphoto/sbO8dFkQn0aLE0B7P_pZmw/o.jpg",
+            "membership level": "Bronze",
+            "other": ""
+        },
+        {
+            "name": "Subway",
+            "address": "1355 Filer Ave E Twin Falls, ID 83301",
+            "phone": "2087368886",
+            "website": "subway.com",
+            "image": "https://s3-media0.fl.yelpcdn.com/bphoto/F8IsA26C7MJIWNG11jL2sg/348s.jpg",
+            "membership level": "Silver",
+            "other": ""
+        },
+        {
+            "name": "Fridays Market",
+            "address": "185 N Main St Richfield, ID 83349",
+            "phone": "2084872530",
+            "website": "fridays-market.com",
+            "image": "https://fridaysmarket.api.shophero.com/shop/content/1/images/logo.png?full=1",
+            "membership level": "Bronze",
+            "other": ""
+        },
+        {
+            "name": "Glanbia Foods",
+            "address": "1216 US-26 Richfield, ID 83349",
+            "phone": "2084872545",
+            "website": "glanbianutritionals.com",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNWzGddYEZl_BU5BPwoe6evFpIr70pEJfoeRt12=w171-h171-n-k-no",
+            "membership level": "Silver",
+            "other": ""
+        }
+    ]
+}

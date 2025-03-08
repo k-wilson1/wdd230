@@ -275,3 +275,53 @@ footer{
 form{
     margin: 0 auto;
 }
+main .directory {
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    max-width: 700px;
+}
+.menu-directory{
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+.menu-directory button {
+    padding: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+.grid section > * {
+    margin: 0.1rem;
+}
+.grid img {
+    box-shadow: 0 0 10px #333;
+}
+.grid h2 {
+    font-size: 1.5rem;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+.list section > * {
+    margin: 0 1rem;
+}
+.list section img {
+    display: none;
+}
+.list section:nth-child(even) {
+    background-color: #bed;
+}

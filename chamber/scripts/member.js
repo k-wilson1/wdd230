@@ -1,7 +1,5 @@
-document.getElementById('date').value = Date.now();
-
 const membersURL = "https://k-wilson1.github.io/wdd230/chamber/data/members.json";
-const members = document.querySelector('#members');
+const cards = document.querySelector('#cards');
 
 async function getMembers() {
     const response = await fetch(membersURL);

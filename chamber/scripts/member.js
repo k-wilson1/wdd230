@@ -45,7 +45,7 @@ const displayMembers = (members) => {
         cards.appendChild(card);
 
     });
-};
+}
 
 getMembers();
 

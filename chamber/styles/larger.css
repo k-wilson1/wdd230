@@ -1,14 +1,10 @@
 @media screen and (min-width: 37.5em){
     body{
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 250px 1fr 1fr 1fr 1fr;
+        display: flexbox;
         background-color: wheat;
         margin: 0;
     }
     header{
-        grid-column: 1/4;
-        margin: 0 auto;
         word-wrap: break-word;
         padding-top: 50px;
         width: 100%;
@@ -45,12 +41,13 @@
         font-size: 1.5rem;
     }
     .navigation a:hover{
-        background-color: rgb(190, 170, 51);
-        height: 50px;
+        background-color: rgba(235, 212, 81, 0.548);
+        height: 10px;
     }
     .imageofrichfield{
-        grid-column: 1/5;
-        grid-row: 1/2;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
 
     main{
@@ -58,10 +55,12 @@
         grid-row: 2/5;
         background-color: wheat;
         margin: 0;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
         width: auto;
+        
+    }
+    .section-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
     .hero {
         grid-column: 1/5;
@@ -83,28 +82,14 @@
         padding: 10px;
     }
     .weather {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        display: block;
+        text-align: center;
+        border: none;
     }
-    .postings {
-        display: flex;
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    .business{
-        display: flex;
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-    .highlight{
-        grid-column: 4/5;
-        grid-row: 2/3;
-    }
-    .postings, .business, .highlight{
+    .postings, .business, .highlight, .weather{
         justify-items: center;
         align-items: start;
-        padding: 10px;
+        padding: 20px;
+        
     }
     .postings h2, .business h2, .highlight h2{
         padding: 10px;
@@ -123,11 +108,13 @@
         font-family: 'Nunito';
         text-align: left;
         margin: 0;
-        padding: 10px;
+        padding: 5px;
     }
     .postings li, .business li, .highlight li{
-        padding: 5px 0;
+        padding: 10px;
         margin: 0;
+        text-align: center;
+        width: 90%;
     }
     footer{
         height: 50px;

@@ -48,49 +48,48 @@
         <section class="imageofrichfield">
             <picture>
                 <source srcset="images/richfieldsmall.webp" media="(max-width: 500px)" width="500" height="250">
-                <source srcset="images/richfieldmedium.webp" media="(max-width: 1000px)"width="800" height="500">
-                <img src="images/richfield.webp" alt="Richfield Idaho" width="800" height="500">
+                <source srcset="images/richfieldmedium.webp" media="(max-width: 1000px)" width="500" height="250">
+                <img src="images/richfield.webp" alt="Richfield Idaho" width="500" height="250">
+                <button type="button" id="join">Join Us</button>
+                <a href="join.html"></a>
             </picture>
         </section>
-        <section class="welcome">
-            <a href="join.html">
-                <button type="button" id="join">Join Us</button>
-            </a>
-        </section>
-        <container class="weather">
-            <h2>Richfield Weather</h2>
-            <div id="temp-div">30°F</div>
-            <div id="weather-info">Partly cloudy</div>
-            <div id="hourly-forecast"></div>
-            <p id="windchill"></p>
-        </container>
-        <section class="postings">
-            <h2>Community Postings</h2>
-            <p>Check out our community postings for the latest news and events in Richfield.</p>
-            <ul>
-                <li>Richfield Days Parade</li>
-                <li>Richfield Farmer's Market</li>
-                <li>Richfield Community Picnic</li>
-            </ul>
-        </section>
-        <section class="business">
-            <h2>Business Directory</h2>
-            <p>Find a local business in our directory.</p>
-            <ul>
-                <li>Richfield Hardware</li>
-                <li>Richfield Bakery</li>
-                <li>Richfield Auto Repair</li>
-            </ul>
-        </section>
-        <section class="highlight">
-            <h2>Community Member Highlight</h2>
-            <p>Meet our community member of the month.</p>
-            <ul>
-                <li>Tasha Newey</li>
-                <li>Richfield Citizen</li>
-                <li>Teacher Extraordinaire</li>
-            </ul>
-        </section>
+        <div class="section-container">
+            <section class="weather">
+                <h2>Richfield Weather</h2>
+                <p id="temp-div">30°F</p>
+                <p id="weather-info">Partly cloudy</p>
+                <p id="hourly-forecast"></p>
+                <p id="windchill"></p>
+            </section>
+            <section class="postings">
+                <h2>Community Postings</h2>
+                <p>Check out our community postings for the latest news and events in Richfield.</p>
+                <ul>
+                    <li>Richfield Days Parade</li>
+                    <li>Richfield Farmer's Market</li>
+                    <li>Richfield Community Picnic</li>
+                </ul>
+            </section>
+            <section class="business">
+                <h2>Business Directory</h2>
+                <p>Find a local business in our directory.</p>
+                <ul>
+                    <li>Richfield Hardware</li>
+                    <li>Richfield Bakery</li>
+                    <li>Richfield Auto Repair</li>
+                </ul>
+            </section>
+            <section class="highlight">
+                <h2>Community Member Highlight</h2>
+                <p>Meet our community member of the month.</p>
+                <ul>
+                    <li>Tasha Newey</li>
+                    <li>Richfield Citizen</li>
+                    <li>Teacher Extraordinaire</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy; <span id="currentdate"></span> Richfield Chamber of Commerce  Idaho, USA</p>

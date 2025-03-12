@@ -69,6 +69,8 @@
         left: 70%;
         font-size: 2rem;
         padding: 10px;
+        border: none;
+        
     }
     h2 {
         grid-row: 3/4;

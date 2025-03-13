@@ -1,6 +1,6 @@
 @media screen and (min-width: 37.5em){
     body{
-        display: flex;
+        display: flexbox;
         background-color: wheat;
         margin: 0;
     }
@@ -140,8 +140,8 @@
     .side-bar {
         background-color: wheat;
         text-align: center;
-        padding: 20px;
-        display: flex;
+        padding: 0;
+        display: flexbox;
         width: 95%;
     }
     #side-bar {

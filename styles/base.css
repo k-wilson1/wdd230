@@ -127,20 +127,19 @@ div h3, h3{
 }
 #cards h2 {
     text-align: center;
-    padding-left: 3rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: inline;
     border: none;
     
 }
 #cards a{
     color: black;
-    padding: 20px;
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 0.75rem;
 }
 .card p{
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     font-size: 1.5rem;
     text-align: center;
 }

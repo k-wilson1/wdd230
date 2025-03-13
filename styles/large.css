@@ -62,6 +62,16 @@
     #grid-cards h3{
         font-size: 2.5rem;
     }
+    #cards h2 {
+        font-size: 2rem;
+    }
+    #cards a {
+        font-size: 1.75rem;
+    }
+    .card p {
+        font-size: 1.75rem;
+        padding: 15px;
+    }
     .iframe {
         width: 100%;
         height: auto;

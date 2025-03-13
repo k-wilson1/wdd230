@@ -118,7 +118,6 @@ main h3, #cards, .card{
     border: 2px solid black;
     width: 95%;
     justify-self: center;
-    text-align: left;
     border-radius: 10px;
     grid-template-columns: auto auto;
 }
@@ -137,23 +136,23 @@ div h3, h3{
 #cards a{
     color: black;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .card p{
-    padding: 0;
+    padding: 10px;
     margin: 10px;
     font-size: 1.5rem;
+    text-align: center;
 }
 #info h3{
     text-align: center;
 }
-.iframe{
-    padding-bottom: 56.25%;
-    overflow: hidden;
-}
+
 .iframe iframe{
     top: 0;
     left: 0;
+    object-fit: cover;
+    width: 90%;
 }
 
 footer{

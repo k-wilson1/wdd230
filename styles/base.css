@@ -93,6 +93,8 @@ main h2{
     border-radius: 10px;
     grid-row: 1/2;
     justify-self: center;
+    border: 2px solid pink;
+    font-size: 2rem;
 }
 .hero img{
     width: 100%;
@@ -126,22 +128,23 @@ div h3, h3{
     background: rgb(252, 206, 213);
     text-align: center;
 }
-#cards ul{
-    text-align: left;
+#cards h2 {
+    text-align: center;
     padding-left: 3rem;
-    display: grid;
     font-size: 1.5rem;
+    display: inline;
+    border: none;
     
 }
-#cards li a{
+#cards a{
     color: black;
+    padding: 20px;
+    font-size: 2rem;
 }
 .card p{
-    display: flexbox;
     padding: 0;
     margin: 10px;
     font-size: 1.5rem;
-    text-align: left;
 }
 #info h3{
     text-align: center;

@@ -5,7 +5,7 @@
             "links" : [
                 { 
                     "url": "lesson02/design-principles.html",
-                    "title": "Design Principles | "
+                    "title": "Design Principles"
                 },
                 {
                     "url": "images/cssscreenshotrealone.png",
@@ -18,7 +18,7 @@
             "links" : [
                 {
                     "url" : "https://codepen.io/k-wilson1/pen/ogvPmYz",
-                    "title" : "Pseudo Codepen |  "
+                    "title" : "Pseudo Codepen"
                 },
                 {
                     "url" : "https://codepen.io/k-wilson1/pen/mybGodj",
@@ -40,7 +40,7 @@
             "links" : [
                 {
                     "url" : "lesson05/bom.html",
-                    "title" : "Favorite Chapter Activity | "
+                    "title" : "Favorite Chapter Activity"
                 },
                 {
                     "url" : "lesson03/images/landscape.webp",
@@ -66,7 +66,7 @@
                 },
                 {
                     "url" : "lessonbom/bom2.html",
-                    "title" : "| BOM List"
+                    "title" : "BOM List"
                 }
             ]
         },
@@ -75,7 +75,7 @@
             "links" : [
                 {
                     "url" : "lesson08/lesson08.html",
-                    "title" : "Week 8 | "
+                    "title" : "Week 8"
                 },
                 {
                     "url" : "form.html",
@@ -88,7 +88,7 @@
             "links" : [
                 {
                     "url" : "lesson09/new-ward-members.json",
-                    "title" : "JSON file | "
+                    "title" : "JSON file"
                 },
                 {
                     "url" : "lesson09/prophets.html",

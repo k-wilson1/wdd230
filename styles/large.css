@@ -1,15 +1,14 @@
 @media screen and (min-width: 37.5em) {
     body {
-        display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+        display: flexbox;
+
     }
     header {
         grid-column: 2/3;
         grid-row: 1/2;
-        margin:0;
+        margin: 0 auto;
         word-wrap: break-word;
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     h1 {
@@ -45,17 +44,7 @@
         background-color: rgb(26, 25, 25);
         height: 50px;
     }
-    main{
-        grid-column: 1/4;
-        margin: 0;
-        padding: 0;
-        grid-row: 2/6;
-    }
-    .hero {
-        grid-column: 1/4;
-        grid-row: 1/2;
-    }
-
+    
     .hero img {
         width: 100%;
         height: 100%;
@@ -71,16 +60,6 @@
         padding: 10px;
         border: none;
     }
-
-    #activities {
-        grid-row: 3/4;
-        grid-column: 1/2;
-    }
-
-    #info {
-        grid-row: 3/4;
-        grid-column: 2/3;
-    }
     
     h3 {
         padding: 15px;
@@ -88,7 +67,7 @@
     }
 
     .iframe {
-        grid-column: 1/4;
+        width: 100%;
         text-align: center;
     }
 
@@ -97,7 +76,6 @@
         height: 60px;
         text-align: center;
         font-size: 14px;
-        grid-column: 1/4;
         background-color: pink;
     }
     footer p, span{

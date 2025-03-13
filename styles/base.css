@@ -100,20 +100,19 @@ main h2{
     width: 100%;
     height: auto;
     object-fit: cover;
-    position: relative;
     display: inline-block;
 }
 .hero h1 {
     margin: 0 auto;
     position: absolute;
-    top: 90%;
+    top: 70%;
     left: 70%;
     color: whitesmoke;
     font-size: 20px;
     background-color: rgba(68, 117, 221);
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px 5px rgba(147, 148, 236, 0.733);
+    box-shadow: 5px 10px 15px 5px rgba(147, 148, 236, 0.733);
 }
 main h3, #cards, .card{
     border: 2px solid black;

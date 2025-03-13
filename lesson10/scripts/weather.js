@@ -19,7 +19,14 @@ async function apiFetch() {
         }
     }
 function displayResults(data) {
-    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather.description}.04n`
+    currentTemp.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
+    const iconCode = data.weather[0].icon;
+    const iconsrc = `https://openweathermap.org/img/w/${iconCode}.png`;
+    
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    const figcaption = document.querySelector('figcaption')
+    figcaption.textContent = `${desc.charAt(0).toUpperCase() + desc.slice(1)}`;
 }
 apiFetch();

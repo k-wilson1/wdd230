@@ -111,15 +111,15 @@ nav {
     margin: 0 auto;
 }   
 #join {
-    position: absolute; /* Position the button absolutely */
-    top: 60%; /* Adjust the top position as needed */
-    left: 20%; /* Adjust the left position as needed */
-    transform: translate(-50%, -50%); /* Center the button */
+    position: absolute; 
+    top: 60%;
+    left: 20%; 
+    transform: translate(-50%, -50%); 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgb(240, 240, 155); /* Adjust the background color as needed */
+    background-color: rgb(240, 240, 155); 
     border: solid red 3px;
     cursor: pointer;
     font-size: 2rem;
@@ -128,7 +128,7 @@ nav {
     color: black;
 }
 #join:hover {
-    background-color: rgb(126, 126, 80); /* Adjust the background color as needed */
+    background-color: rgb(126, 126, 80); 
     color: black;
 }
 .weather, .postings, .business, .highlight{

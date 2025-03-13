@@ -103,13 +103,10 @@ nav {
     border-radius: 10px;
     border: solid rgba(27, 27, 122, 0.664) 8px;
 }
-.imageofrichfield {
-    position: relative;
-}
+
 .imageofrichfield img {
     width: 100%;
     height: auto;
-    object-fit: cover;
     display: block;
     margin: 0 auto;
 }   
@@ -179,13 +176,13 @@ footer{
     margin: 0;
 }
 
-.calendar {
+div .calendar {
     border: 2px solid #ccc;
     border-radius: 8px;
-    background-color: lightyellow;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     bottom: 70%;
     width: 100%;
+    height: auto;
 }
 .calendar-header {
     display: flex;
@@ -210,6 +207,11 @@ footer{
     background-color: yellow;
     color: red;
 }
+.imagesofrichfield{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 #days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -221,6 +223,10 @@ footer{
 }
 #days div:hover {
     background-color: red;
+}
+.side-bar{
+    width: 100%;
+    
 }
 .mf1 {
     display: block;

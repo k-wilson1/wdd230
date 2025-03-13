@@ -126,41 +126,44 @@
     footer{
         height: 50px;
     }
-    main .discover  {
-        gap: 20px;
-        
+    main.discover  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .visits {
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         border: black 2px dashed;
         justify-content: center;
         padding-top: 5px;
+        width: 80%;
+        margin: 0 auto;
     }
     .side-bar {
         background-color: wheat;
         text-align: center;
         padding: 20px;
-        border: 2px solid black;
+        display: flexbox;
+        width: 95%;
     }
     #side-bar {
-        width: 80%;
+        width: 85%;
         text-align: left;
     }
     #calendar{
         margin: 0 auto;
         text-align: center;
+        width: 80%;
+        padding-top: 10px;
     }
     .imagesofrichfield {
-        width: 300px;
+        width: 50%;
         height: auto;
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
     }
     .imagesofrichfield h2 {
         text-align: center;
         font-size: 2rem;
-        justify-content: center;
-        align-self: center;
     }
     form {
         display: grid;

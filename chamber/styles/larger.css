@@ -1,6 +1,6 @@
 @media screen and (min-width: 37.5em){
     body{
-        display: flexbox;
+        display: flex;
         background-color: wheat;
         margin: 0;
     }
@@ -52,7 +52,6 @@
     }
     #join {
         font-size: 5rem;
-        align-self: left;
     }
     main{
         grid-column: 1/4;
@@ -142,7 +141,7 @@
         background-color: wheat;
         text-align: center;
         padding: 20px;
-        display: flexbox;
+        display: flex;
         width: 95%;
     }
     #side-bar {

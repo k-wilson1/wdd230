@@ -127,7 +127,7 @@ div h3, h3{
 }
 #cards h2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: inline;
     border: none;
     
@@ -135,7 +135,7 @@ div h3, h3{
 #cards a{
     color: black;
     padding: 10px;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 .card p{
     padding: 5px;

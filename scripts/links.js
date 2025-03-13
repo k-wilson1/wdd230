@@ -17,54 +17,27 @@ async function getLinks() {
 }
 
 const displayLinks = (lessons) => {
-    const weekContainer = {};  // Object to hold lessons grouped by week
-
-    // Group lessons by week
+    
     lessons.forEach((lesson) => {
-        if (!weekContainer[lesson.week]) {
-            weekContainer[lesson.week] = [];  // array for the week if not already present
-        }
-        weekContainer[lesson.week].push(lesson);  // Add lesson to the correct week
-    });
-
-    // Now display each week and its lessons
-    for (const week in weekContainer) {
         const weekElement = document.createElement('div');
-        weekElement.classList.add('week-container');
+        weekElement.classList.add('lesson-container');
+        
+        const lessonTitle = document.createElement('h2');
+        lessonTitle.textContent = `Lesson ${lesson.lesson}: `;
 
-        // Add a heading for the week
-        const weekTitle = document.createElement('h2');
-        weekTitle.textContent = `Week ${week}`;
-        weekElement.appendChild(weekTitle);
+        weekElement.appendChild(lessonTitle);
+    
+        lesson.links.forEach(link => {
+            const linkElement =document.createElement('a');
+            linkElement.textContent = link.title;
+            linkElement.setAttribute('href', link.url);
+            linkElement.setAttribute('target', '_blank');
 
-        // Display each lesson under the week
-        weekContainer[week].forEach((lesson) => {
-            const lessonContainer = document.createElement('div');
-            lessonContainer.classList.add('lesson-container');
+            weekElement.appendChild(linkElement);
 
-            // Display lesson number as a heading
-            const lessonTitle = document.createElement('h3');
-            lessonTitle.textContent = `Lesson ${lesson.lesson}`;
-            lessonContainer.appendChild(lessonTitle);
-
-            // Loop through links in the current lesson
-            lesson.links.forEach((link) => {
-                const linkUrl = document.createElement('a');
-                linkUrl.textContent = link.url;
-                linkUrl.setAttribute('href', link.url);
-                linkUrl.setAttribute('target', '_blank');
-
-                // Append the link to the lesson container
-                lessonContainer.appendChild(linkUrl);
-            });
-
-            // Append the lesson container to the week container
-            weekElement.appendChild(lessonContainer);
         });
 
-        // Append the week container to the cards section
         cards.appendChild(weekElement);
-    }
+    });
 };
-
 getLinks();

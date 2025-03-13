@@ -90,7 +90,6 @@ nav {
 
 main h2{
     background-color:lightseagreen;
-    border: solid 5px rgb(252, 206, 213);
     border-radius: 10px;
     grid-row: 1/2;
     justify-self: center;
@@ -137,11 +136,12 @@ div h3, h3{
 #cards li a{
     color: black;
 }
-#card p{
+.card p{
+    display: flexbox;
     padding: 0;
     margin: 10px;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
 }
 #info h3{
     text-align: center;

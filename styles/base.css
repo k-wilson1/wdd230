@@ -138,11 +138,18 @@ div h3, h3{
     padding: 10px;
     font-size: 1rem;
 }
-.card p{
+.card p, figure, span{
     padding: 5px;
     margin: 2px;
     font-size: 1.5rem;
     text-align: center;
+    background-color: none;
+}
+#temp, .label, .visits {
+    background-color: lightseagreen;
+}
+.visits {
+    padding-top: 50px;
 }
 #info h3{
     text-align: center;
@@ -159,4 +166,7 @@ footer{
     background-color: rgb(239, 192, 199);
     min-height: 100px;
     padding: 20px 0;
+}
+#currentdate, #lastModified, footer p {
+    background-color: rgb(239, 192, 199);
 }

@@ -351,6 +351,7 @@ main .directory {
     width: 30%;
 }
 #banner {
+    display: none;
     position: fixed;
     width: 60%;
     background-color: black;

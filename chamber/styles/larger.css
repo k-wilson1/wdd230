@@ -210,4 +210,10 @@
         display: grid;
         grid-column: 2/3;
     }
+    #banner {
+        font-size: 3em;
+        position: fixed;
+        top: 35%;
+        left: 100px;
+    }
 }

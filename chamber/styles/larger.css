@@ -25,7 +25,7 @@
     .navigation{
         display: flex !important;
         flex-direction: row;
-        width: 95%;
+        width: 90%;
         height: 50px;
         justify-content: center;
         text-align: center;

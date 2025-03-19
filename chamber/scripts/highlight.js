@@ -20,10 +20,9 @@ function shuffleArray(array) {
     return result;
 }
 const displayRandomMembers = (members) => {
-    shuffleArray(members);
+    const silverOrGoldMembers = members.filter(member => member.level === "Silver" || member.level === "Gold");
 
-    const randomMembers = members.slice(0,2);
-    console.log("Random members:", randomMembers);
+    const randomMembers = shuffleArray(silverOrGoldMembers).slice(0,2);
 
     randomMembers.forEach((member) => {
         let card = document.createElement('section');

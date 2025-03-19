@@ -137,6 +137,8 @@ nav {
     border: solid 5px black;
     background-color: rgba(245, 222, 179, 0.459);
     font-size: 2rem;
+    align-items: flex-start;
+    padding-top: 0;
 }
 .weather, .postings h2, .business h2, .highlight h2{
     text-align: center;

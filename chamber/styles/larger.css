@@ -59,13 +59,14 @@
         grid-column: 1/4;
         grid-row: 2/5;
         background-color: wheat;
-        margin: 0;
+        margin: 0 auto;
         width: auto;
         
     }
     .section-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
     }
     .hero {
         grid-column: 1/5;
@@ -89,12 +90,13 @@
     .weather {
         text-align: center;
         border: none;
+        font-size: 3rem;
     }
     .postings, .business, .highlight, .weather{
         justify-items: center;
-        align-items: start;
+        align-items: flex-start;
         padding: 20px;
-        
+        padding-top: 0;
     }
     .postings h2, .business h2, .highlight h2{
         padding: 10px;
@@ -112,7 +114,7 @@
         font-size: 2rem;
         font-family: 'Nunito';
         text-align: left;
-        margin: 0;
+        margin: 0 auto;
         padding: 15px;
     }
     .postings li, .business li, .highlight li{
@@ -235,22 +237,24 @@
         width: 90%;
     }
     .forecast-day h3{
-        font-size: 18px;
+        font-size: 2.5rem;
         margin-bottom: 10px;
         grid-row: 1/2;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     .forecast-day p {
-        font-size: 16px;
+        font-size: 2rem;
         margin-bottom: 5px;
     }
     .forecast-day p:first-of-type {
         font-weight: bold;
-        font-size: 18px;
+        font-size: 2rem;
         grid-row: 2/3;
     }
     .forecast-day h3:nth-of-type(2) {
-        font-size: 16px;
+        font-size: 2rem;
         grid-row: 3/4;
     }
    

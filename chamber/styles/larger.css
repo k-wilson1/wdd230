@@ -50,6 +50,7 @@
         height: auto;
         margin: 0 auto;
         align-items: center;
+        text-align: center;
     }
     #join {
         font-size: 5rem;

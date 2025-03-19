@@ -51,6 +51,7 @@
         margin: 0 auto;
         align-items: center;
         text-align: center;
+        object-fit: fill;
     }
     #join {
         font-size: 5rem;

@@ -1,22 +1,38 @@
 const membersURL = "https://k-wilson1.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector('#highlight');
+const cards = document.querySelector('#member-highlight');
 
 async function getMembers() {
     const response = await fetch(membersURL);
     if ( response.ok) {
         const data = await response.json();
-        displayMembers(data.members);
+        console.log(data.members);
+        displayRandomMembers(data.members);
     }
 }
+function shuffleArray(array) {
+    let result = [];
+    let tempArray = [...array];
 
-const displayMembers = (members) => {
-    members.forEach((member) => {
+    while (tempArray.length) {
+        const randomIndex = Math.floor(Math.random() * tempArray.length);
+        result.push(tempArray.splice(randomIndex, 1)[0]);
+    }
+    return result;
+}
+const displayRandomMembers = (members) => {
+    shuffleArray(members);
+
+    const randomMembers = members.slice(0,2);
+    console.log("Random members:", randomMembers);
+
+    randomMembers.forEach((member) => {
         let card = document.createElement('section');
-        let name = document.createElement('h2');
+        let name = document.createElement('h3');
+        let level = document.createElement('p');
         let phone = document.createElement('p');
         let address = document.createElement('p');
         let website = document.createElement('a');
-        let level = document.createElement('p');
+        
 
         name.textContent = member.name;
         phone.textContent = member.phone;
@@ -31,7 +47,9 @@ const displayMembers = (members) => {
         card.appendChild(website);
         card.appendChild(level);
         
-        if (level === "Silver" || level === "Gold") {
+        if (member.level === "Silver" || member.level === "Gold") {
+            console.log('Appending card:', cards);
+            
             cards.appendChild(card);
         };
         

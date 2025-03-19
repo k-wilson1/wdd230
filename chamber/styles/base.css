@@ -384,3 +384,10 @@ main .directory {
     text-align: center;
     padding-left: 20px;
 }
+#highlight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+

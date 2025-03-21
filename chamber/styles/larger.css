@@ -207,7 +207,13 @@
     .mf1 input[type="radio"] {
         margin-right: 6px;
     }
-    #membershipapp {
+    
+    main #join-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 2rem;
+    }
+    div #membershipapp {
         display: grid;
         grid-column: 1/2;
     }

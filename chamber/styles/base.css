@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Smooch+Sans:wght@100..900&display=swap');
-
+* {
+    font-family: "Nunito";
+}
 header{
     display: grid;
     align-items: center;
@@ -12,6 +14,7 @@ header{
     color: black;
     text-align: center;
     font-family: "alfa slab one";
+    width: 99%;
 }
 header img{
     width: 100px;
@@ -109,6 +112,7 @@ nav {
     height: auto;
     display: block;
     margin: 0 auto;
+    background-color: red;
 }   
 #join {
     position: absolute; 

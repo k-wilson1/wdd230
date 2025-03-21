@@ -1,4 +1,4 @@
-const button= document.querySelector('#button');
+const button= document.querySelector('#join');
 button.textContent = 'Join Us!';
 button.id= 'join';
 button.className= 'join';

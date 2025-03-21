@@ -15,6 +15,7 @@ header{
     text-align: center;
     font-family: "alfa slab one";
     width: 99%;
+    margin: 0 auto;
 }
 header img{
     width: 100px;

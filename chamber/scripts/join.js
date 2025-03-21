@@ -5,7 +5,8 @@ button.className= 'join';
 
 
 button.addEventListener('click', () => {
-    alert('Welcome to the Chamber of Commerce! We look forward to working with you.');
+    window.location.href = 'join.html';
+    //alert('Welcome to the Chamber of Commerce! We look forward to working with you.');
 });
 
 

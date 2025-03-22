@@ -175,27 +175,36 @@
         text-align: center;
         font-size: 2rem;
     }
-    form {
+    #joinforminput {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    #membershipapp {
+        display: grid;
+        grid-column: 1/2;
+    }
+    #descofmember {
+        display: inline;
+        grid-column: 2/3;
+    }
     .mf1 fieldset {
         margin: 2rem 0;
-        border: 1px solid lightgrey;
+        border: 1px solid rgb(138, 137, 137);
         border-radius: 6px;
         padding: 0.5rem 2%;
-        width: 96%;
+        width: 100%;
     }
     .mf1 legend {
-        color: rgb(107, 107, 250);
+        color: rgb(23, 23, 228);
         padding: 0 .5rem;
-        font-size: 20px;
+        font-size: 24px;
     }
     .mf1 label {
         display: block;
         padding-top: 1rem;
-        color: red;
-        font-size: 0.9rem;
+        color: black;
+        font-size: 1.25rem;
+        width: 95%;
     }
     .mf1 input[type="text"],
     .mf1 input[type="email"],
@@ -212,20 +221,7 @@
         margin-right: 6px;
     }
     
-    #join-form {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        font-size: 2rem;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-    }
-    #membershipapp {
-        grid-column: 1/2;
-    }
-    #descofmember {
-        grid-column: 2/3;
-    }
+    
     #banner {
         font-size: 3em;
         position: fixed;

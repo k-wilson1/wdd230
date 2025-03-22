@@ -5,7 +5,6 @@ async function getMembers() {
     const response = await fetch(membersURL);
     if ( response.ok) {
         const data = await response.json();
-        console.log(data.members);
         displayRandomMembers(data.members);
     }
 }
@@ -47,8 +46,7 @@ const displayRandomMembers = (members) => {
         card.appendChild(level);
         
         if (member.level === "Silver" || member.level === "Gold") {
-            console.log('Appending card:', cards);
-            
+                        
             cards.appendChild(card);
         };
         

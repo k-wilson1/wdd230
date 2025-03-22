@@ -163,7 +163,7 @@ nav {
     height: 50%;
 }
 #mode {
-    position: absolute;
+    position: fixed;
     top: .5rem;
     right: 1rem;
     font-size: 1rem;

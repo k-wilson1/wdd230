@@ -69,6 +69,8 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         margin: 0 auto;
+        width: 95%;
+        padding: 0;
     }
     .hero {
         grid-column: 1/5;
@@ -93,6 +95,7 @@
         text-align: center;
         border: none;
         font-size: 3rem;
+        width: 20%;
     }
     .postings, .business, .highlight, .weather{
         justify-items: center;

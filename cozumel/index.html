@@ -18,7 +18,8 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <button type="button" id="menu">Menu</button>
+            <ul class="navigation hide">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
@@ -29,14 +30,54 @@
     </header>
     <main>
         <div class="hero">
-            <picture>
+            <div class="logo">
+                <h1>🛵 Scoots 🛵</h1>
+            </div>
+            <button type="button" id="rent">Rent Now</button>
+            <a href="rentals.html"></a>
+            <picture class="hero-image">
                 <source srcset="images/cozumelsmall.webp" media="(max-width: 500px)" width="500" height="250">
                 <source srcset="images/cozumelmedium.webp" media="(max-width: 1000px)" width="500" height="250">
                 <img src="images/cozumelbeach.webp" alt="Cozumel Mexico" width="500" height="250">
             </picture>
-            <div class="logo">
-                <h1>🛵 Scoots 🛵</h1>
+            <div class="thumbnail-container">
+                <div class="thumbnail">
+                    <img class="thumbnail" src="images/cozumel1.webp" alt="cozumel" width="500" height="250">
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail" src="images/cozumel2.webp" alt="cozumel" width="500" height="250">
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail" src="images/cozumel3.webp" alt="cozumel" width="500" height="250">
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail" src="images/cozumel4.webp" alt="cozumel" width="500" height="250">
+                </div>
+                <div class="thumbnail">
+                    <img class="thumbnail" src="images/cozumel5.webp" alt="cozumel" width="500" height="250">
+                </div>
             </div>
+        </div>
+        <div class="summaryRentals">
+            <h2>🛵 Scooter Rentals in Cozumel, Mexico 🛵</h2>
+            <p>🌴 Welcome to Scoots! 🌴</p>
+            <p> We are a family-owned and operated scooter rental company located in Cozumel, Mexico. </p>
+            <p> We are conveniently located at the Playa del Carmen-Cozumel Ferry dock and Terminal Puerta Maya. </p>
+            <p> We offer a variety of scooters to rent for your vacation or travel needs. </p>
+            <p> Our scooters are well-maintained and reliable. </p>
+            <p> We offer competitive rates and excellent customer service. </p>
+            <p> We look forward to serving you on your next trip to Cozumel! </p>
+        </div>
+        <div class="weather-container">
+            <section class="weather">
+                <h2> Cozumel Weather </h2>
+                <p id="temp"></p>
+                <p id="humidity"></p>
+                <p id="nextday"></p>
+                <p id="title"></p>
+                <p id="description"></p>
+                <img id="icon" src="" alt="weather icon">
+            </section>
         </div>
     </main>
     <footer>
@@ -44,6 +85,11 @@
         <p>Playa del Carmen-Cozumel Ferry dock & Terminal Puerta Maya</p>
         <p>Cozumel, Mexico</p>
         <p>Phone: 011-52-987-872-5732</p>
+        <a href="https://www.facebook.com" target="_blank">
+            Follow us on Facebook <img src="images/facebook.png" alt="Facebook icon" width="20" height="20">    
+        </a>
     </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/photos.js"></script>
 </body>
 </html>

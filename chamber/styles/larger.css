@@ -99,45 +99,45 @@
         font-size: 3rem;
         width: 20%;
     }
-    .postings, .business, .highlight, .weather{
+    .postings, .business, .highlight, .weather {
         justify-items: center;
         align-items: flex-start;
         padding: 20px;
         padding-top: 0;
         height: 70%;
     }
-    .postings h2, .business h2, .highlight h2{
+    .postings h2, .business h2, .highlight h2 {
         padding: 10px;
         font-family: 'Smooch Sans', sans-serif;
         margin: 0;
         font-size: 3rem;
     }
-    .postings p, .business p, .highlight p{
+    .postings p, .business p, .highlight p {
         font-family: 'Nunito', sans-serif;
         text-align: center;
         margin: 0;
         padding: 0;
     }
-    .postings ul, .business ul, .highlight ul{
+    .postings ul, .business ul, .highlight ul {
         font-size: 2rem;
         font-family: 'Nunito';
         text-align: left;
         margin: 0 auto;
         padding: 15px;
     }
-    .postings li, .business li, .highlight li{
+    .postings li, .business li, .highlight li {
         padding: 10px;
         margin: 0;
         text-align: left;
         width: 90%;
     }
-    .highlight h2{
+    .highlight h2 {
         font-size: 2.6rem;
     }
-    footer{
+    footer {
         height: 50px;
     }
-    main.discover  {
+    main.discover {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -161,7 +161,7 @@
         width: 85%;
         text-align: left;
     }
-    #calendar{
+    #calendar {
         margin: 0 auto;
         text-align: center;
         width: 80%;
@@ -242,7 +242,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .forecast-day h3{
+    .forecast-day h3 {
         font-size: 2.5rem;
         margin-bottom: 10px;
         grid-row: 1/2;

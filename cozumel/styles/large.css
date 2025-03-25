@@ -20,20 +20,21 @@
     }
     .hero img {
         width: 90%;
+        height: auto;
+        padding-top: 50px;
         background-color: #fff;
         padding: 1rem;
         box-shadow: rgba(0,0,0,0.08) 0px 4px 12px; 
-           
     }
     .thumbnail-container {
         display: flex;
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .thumbnail {
         width: 200px;
         height: 200px;
-        margin: 0 10px;
+        margin: 0 5px;
         cursor: pointer;
     }
 

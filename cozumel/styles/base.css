@@ -189,7 +189,7 @@ footer {
     color: black;
     top: 20%;
     left: 50%;
-    z-index: 19;
+    z-index: 9;
 }
 .container-info {
     display: flex;

@@ -200,25 +200,30 @@ footer {
     height: 100%;
     padding: 0;
 }
+.container-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+}
 .summaryRentals {
-    width: 50%;
-    padding: 0;
-    box-shadow: rgba(24, 24, 24, 0.637) 0px 4px 12px;
-    margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
+    width: 90%;
+    box-shadow: rgba(24, 24, 24, 0.637) 0px 4px 12px;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 0 auto;
 }
-.summaryRentals p {
-    padding: 15px;
-    text-align: center;
-}
-
 .weather-container {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
     height: 100%;
     padding: 0;
     text-align: center;

@@ -127,4 +127,20 @@
     footer {
         font-size: 1.5rem;
     }
+    .forecast, .weather-container {
+        font-size: 2rem;
+        padding: 50px;
+        word-spacing: 10px;
+    }
+    .forecast img, .weather-container img {
+        width: 100px;
+        height: 100px;
+    }
+    .summaryRentals, .weather-container {
+        height: 850px;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 }

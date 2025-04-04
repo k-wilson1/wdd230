@@ -143,4 +143,32 @@
         align-items: center;
         margin: 0 auto;
     }
+    .rentals {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        padding: 90px 20px 20px 20px;
+        text-align: center;
+        box-shadow: rgba(24, 24, 24, 0.637) 0px 4px 12px;
+        font-size: 1.75rem;
+        font-family: "Ubuntu", sans-serif;
+    }
+    
+    .rentals section {
+        padding: 20px;
+        margin: 0 auto; 
+        gap: 20px;
+        border: solid 2px black;
+    }
+    #cards {
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
 }

@@ -231,3 +231,25 @@ footer {
     font-size: 1.5rem;
     font-family: "Ubuntu", sans-serif;
 }
+.rentals {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 90px 10px 10px 10px;
+    text-align: center;
+    box-shadow: rgba(24, 24, 24, 0.637) 0px 4px 12px;
+    font-size: 0.75rem;
+    font-family: "Ubuntu", sans-serif;
+}
+.rentals section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 20px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.25rem;
+}

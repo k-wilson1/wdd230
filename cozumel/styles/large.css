@@ -82,8 +82,6 @@
         position: absolute;
         top: 20%;
         left: 50%;
-        transform: translateX(-50%);
-        background-color: rgb(0, 217, 255);
         color: black;
         border: none;
         height: 15%;
@@ -100,16 +98,18 @@
     }
     .summaryRentals {
         width: 50%;
+        height: auto;
         padding: 0 10px 10px 10px;
         box-shadow: rgba(24, 24, 24, 0.637) 0px 4px 12px;
         margin: 0 auto;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: "Ubuntu", sans-serif;
         text-align: center;
     }
     .summaryRentals p {
         padding: 15px;
         text-align: center;
+        font-size: 1.75rem;
     }
     
     .weather-container {
@@ -244,5 +244,36 @@
         border-radius: 8px;
         font-family: "smooch sans", sans-serif;
     }
-
+    .contact-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-info h2, p {
+        font-size: 4rem;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .iframe1 {
+        grid-column: 1/2;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .iframe2 {
+        grid-column: 2/3;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .contact-info h3 {
+        font-size: 2.5rem;
+        font-family: "Ubuntu", sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }

@@ -5,7 +5,7 @@
 }
 html{
     background-image: linear-gradient( rgb(0, 217, 255), white);
-    
+    height: 100%;
 }
 .ubuntu-light {
     font-family: "Ubuntu", sans-serif;
@@ -60,6 +60,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
 }
 nav {
     padding: 0;
@@ -388,13 +389,23 @@ footer {
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 90px 10px 10px 10px;
 }
-.iframe {
-    width: 48%;
+.contact-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.contact-info div{
-    width: 48%;
-    margin: 10px;
+.contact-info p {
+    text-align: center;
+    margin-bottom: 30px;
 }
+
+.contact-info .iframe1, .contact-info .iframe2 {
+    width: 100%; 
+    max-width: 600px;
+    height: 400px; 
+    margin: 10px 0; 
+    box-sizing: border-box; 
+}
+

@@ -31,12 +31,14 @@
         <main class="contact">
             <div id="banner" class="banner">
                 <form method="get" class="contact-us">
-                    <legend>Contact Us Today!</legend>
-                    <label>Name* <input type="text" id="name" required></label>
-                    <label>Email* <input type="email" id="email" required></label>
-                    <label>Phone <input type="tel" id="phone" ></label>
-                    <label>Message <textarea id="message" rows="4" ></textarea></label>
-                <button type="button" id="submit" class="submit">Submit</button>
+                    <fieldset>
+                            <legend>Contact Us Today!</legend>
+                            <label>Name* <input type="text" id="name" required></label>
+                            <label>Email* <input type="email" id="email" required></label>
+                            <label>Phone <input type="tel" id="phone" ></label>
+                            <label>Message <textarea id="message" rows="4" ></textarea></label>
+                            <button type="submit" id="submit" class="submit">Connect with Us</button>
+                    </fieldset>
                 </form>
                 <button id="close-banner" class="close">❌</button>
             </div>
@@ -66,5 +68,7 @@
             </a>
         </footer>
         <script src="scripts/banner.js"></script>
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/hamburder.js"></script>
     </body>
 </html>

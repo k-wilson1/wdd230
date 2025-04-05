@@ -316,3 +316,10 @@ footer {
     max-width: 400px;
     appearance: none;
 }
+.reservation-form input[type="submit"] {
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: rgb(250, 223, 227);
+    border-radius: 8px;
+    font-family: "smooch sans", sans-serif;
+}

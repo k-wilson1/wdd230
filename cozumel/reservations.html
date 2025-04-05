@@ -36,47 +36,51 @@
     </header>
     <main class="reservations">
         <h2>Reservations</h2>
-        <section class="reservation-agreement">
-            <h3>Rental Agreement Information</h3>
-            <ul>
-                <li>A $50 security deposit is required to confirm reservations.</li>
-                <li>A valid drivers license is required in hand at the time of rental.</li>
-                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
-                <li>Fuel charge is not included.</li>
-                <li>Unlimited mileage.</li>
-                <li>Liability insurance is included.</li>
-                <li>Damage insurance is available for purchase.</li>
-                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
-                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
-                <li>Rentals may be returned to either physical location.</li>
-            </ul>
-        </section>
-        <section class="reservation-form">
-            <form method="get" class="resform">
-                <fieldset>
-                    <legend>Reservation Form</legend>
-                        <label>First Name* <input type="text" id="fname" name="fname" required></label>
-                        <label>Last Name* <input type="text" id="lname" name="lname" required></label>
-                        <label>Email* <input type="email" id="email" name="email" required></label>
-                        <label>Phone* <input type="tel" id="phone" name="phone" required></label>
-                        <label>Rental Date* <input type="date" id="rental-date" name="rental-date" required></label>
-                        <label>Return Date* <input type="date" id="rental-duration" name="rental-duration" required></label>
-                        <label>Rental Type* 
-                            <select id="rental-type" name="rental-type" required>
-                                <option value="option">Please choose</option>
-                                <option value="hondascooter">Honda Metro Scooter</option>
-                                <option value="hondadioscooter">Honda Dio Scooter</option>
-                                <option value="hondapcx150">Honda PCX150 Scooter</option>
-                                <option value="hondapioneeratv">Honda Pioneer ATV</option>
-                                <option value="jeepwrangler4door">Jeep Wrangler-4 door with A/C</option>
-                                <option value="jeepwrangler2door">Jeep Wrangler-2 door</option>
-                            </select>
-                        <label>Home State or Country <input type="text" id="state" name="state"></label>
-                        <label>Cruise Line -if applicable <input type="text" id="cruise" name="cruise"></label>
-                        <label>Special accomodations/comments <input type="text" id="comments" name="comments"></label>
-                </fieldset>
-            </form>
-        </section>
+        <div class="reservation-sections">
+            <section class="reservation-agreement">
+                <h3>Rental Agreement Information</h3>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at the time of rental.</li>
+                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                </ul>
+            </section>
+        
+            <section class="reservation-form">
+                <form method="get" class="resform">
+                    <fieldset>
+                        <legend>Reservation Form</legend>
+                            <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                            <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                            <label>Email* <input type="email" id="email" name="email" required></label>
+                            <label>Phone* <input type="tel" id="phone" name="phone" required></label>
+                            <label>Rental Date* <input type="date" id="rental-date" name="rental-date" required></label>
+                            <label>Return Date* <input type="date" id="rental-duration" name="rental-duration" required></label>
+                            <label>Rental Type* 
+                                <select id="rental-type" name="rental-type" required>
+                                    <option value="option">Please choose</option>
+                                    <option value="hondascooter">Honda Metro Scooter</option>
+                                    <option value="hondadioscooter">Honda Dio Scooter</option>
+                                    <option value="hondapcx150">Honda PCX150 Scooter</option>
+                                    <option value="hondapioneeratv">Honda Pioneer ATV</option>
+                                    <option value="jeepwrangler4door">Jeep Wrangler-4 door with A/C</option>
+                                    <option value="jeepwrangler2door">Jeep Wrangler-2 door</option>
+                                </select>
+                            <label>Home State or Country <input type="text" id="state" name="state"></label>
+                            <label>Cruise Line -if applicable <input type="text" id="cruise" name="cruise"></label>
+                            <label>Special accomodations/comments <input type="text" id="comments" name="comments"></label>
+                            <input type="submit" value="Reserve Now!">
+                        </fieldset>
+                </form>
+            </section>
+        </div>
     </main>
     <footer>
         <h3>Scoots-Owner-operator Scooter Rentals</h3>

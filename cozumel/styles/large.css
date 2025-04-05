@@ -176,7 +176,6 @@
         flex-direction: column;
         margin: 0 auto;
         width: 100%;
-        height: auto;
         padding-top: 90px;
         padding-left: 20px;
         align-items: center;
@@ -187,30 +186,29 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    .reservation-section {
+    .reservation-sections {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        max-width: 1200px;
         margin: 0 auto;
     }
     .reservation-agreement, .reservation-form {
         width: 48%;
         margin: 10px;
+        box-sizing: border-box;
+    }
+    .reservation-agreement li{
+        font-size: 1.5rem;
+        font-family: "Ubuntu", sans-serif;
+        text-align: left;
+        margin: 0;
+        padding-top: 10px;
     }
     .reservation-form fieldset {
         margin: 2rem 0;
         border: 1px solid grey;
         padding: 0.5rem 2%;
         width: 100%;
-    }
-    .reservation-form h2 {
-        font-size: 4rem;
-        font-family: "Ubuntu", sans-serif;
-        text-align: center;
-        margin: 0 auto;
-        padding: 0 10px;
-        
     }
     .reservation-form legend {
         padding: 0.5rem;
@@ -222,7 +220,7 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        width: 100%;
+        width: auto;
         height: 100%;
         padding: 0 10px 10px 10px;
     }
@@ -239,4 +237,12 @@
         border-radius: 4px;
         font-size: 1.25rem;
     }
+    .reservation-form input[type="submit"] {
+        font-size: 3rem;
+        padding: 10px 20px;
+        background-color: rgb(250, 223, 227);
+        border-radius: 8px;
+        font-family: "smooch sans", sans-serif;
+    }
+
 }

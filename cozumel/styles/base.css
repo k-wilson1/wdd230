@@ -141,7 +141,7 @@ footer {
 }
 .logo {
     text-align: center;
-    padding-top: -100px;
+    padding-top: 0;
 }
 .logo h1 {
     font-size: 36px;
@@ -232,7 +232,7 @@ footer {
     font-family: "Ubuntu", sans-serif;
 }
 .rentals {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -281,7 +281,6 @@ footer {
 .reservation-form {
     width: 50%;
     justify-content: center;
-    align-items: left;
     text-align: left;
     display: block;
     padding: 20px;
